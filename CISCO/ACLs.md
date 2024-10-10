@@ -58,6 +58,16 @@ ip access-list <extended/standard> <acl_name>
 access-list 120 permit tcp any host 10.0.0.5 eq 80
 ```
 
+#### deny any host access to a whole subnet with the given ports
+```
+access-list 112 deny tcp any 172.16.0.0 0.0.255.255 eq 443
+access-list 112 deny tcp any 172.16.0.0 0.0.255.255 eq 80
+access-list 112 deny tcp any 172.16.0.0 0.0.255.255 eq 21
+access-list 112 permit ip any any 
+interface ethernet0/0/0
+ip access-group 112 out
+```
+
 ##### permit only a single pc to reach routers on telnet
 ```
 ip access-list standard notelnet
