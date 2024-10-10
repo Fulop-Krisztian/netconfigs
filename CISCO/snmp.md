@@ -44,7 +44,7 @@ show snmp
 no snmp-server
 ```
 
-## SNMPv1 & SNMPv2 configuration
+## SNMPv1 & SNMPv2 configuration (Simpler, less serucre, recommended for first try)
 First we configure authentication
 > [!NOTE]
 > These require something referred to as a **community string** to be set up. This is analogous to a **password**, but this community string sounds fancier and more confusing, so it's a perfect name.
