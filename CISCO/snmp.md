@@ -17,6 +17,8 @@ Sources
 ---
 [Cisco's documentation](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/snmp/configuration/xe-16/snmp-xe-16-book/nm-snmp-cfg-snmp-support.html#GUID-C2F92A96-7EB8-4921-8491-46C4D7AD2D49)
 
+[SNMPv3 Tempalte](https://community.cisco.com/t5/networking-knowledge-base/configuration-template-for-snmpv3/ta-p/4666450)
+
 ## General config (optional)
 > [!NOTE]
 > It is best practice to set these. The first **snmp-server** setting you enter enables all (supported) versions of SNMP. Anything beyond that is optional.
@@ -54,13 +56,13 @@ First we configure authentication
 > - **RO** only allows data collection.
 > - **RW** allows configuration by the manager as well.
 
-You can configure ACLs too to limit what IPs are allowed.
+You can configure ACLs too optionally to limit what IPs are allowed.
 
 ```
-snmp-server community <community-string> <RO/RW> <ACL number (optional)>
+snmp-server community <community-string> <RO/RW> (<ACL number (optional)>)
 ```
 
-With this command you are pretty much done. You will now need to configure your manager as well with this string, and everything should work.
+***With this command you are pretty much done.*** You will now need to configure your manager as well with this string, and everything should work.
 
 ### Optional configs
 You can enable traps. This will send periodic and triggered unsolicited updates to the snmp manager. 
@@ -85,10 +87,14 @@ This is somewhat different from the previous two, but a lot more secure. This is
 
 The configuration goes like this:
 > [!NOTE]
-> By default you have the same permissions as you would with **RW** in v1/2
-> You can set up views. These are like the RO/RW permissions for v1/2, but we can configure them more with more granularity. Don't touch them though if you value your sanity
+> You will probably need to set up views. These are like the RO/RW permissions for v1/2, but we can configure them with data level granularity. Don't touch them though if you value your sanity
+>
+> Here we will configure the views similarly to the RO/RW system of v1/2c. They will let us access the whole device as we would with v1/2c
 
-
+```
+! iso after the <view name> is the MIB name for all all OIDs.
+snmp-server view <view_name> iso included
+```
 
 > [!NOTE]
 > Second we need to create a **group**.
@@ -96,11 +102,14 @@ The configuration goes like this:
 > - **noauth**: no authentication and no encryption.
 > - **auth**: authentication only (no encryption).
 > - **priv**: authentication and encryption
-> You can use an ACL too.
 
+> [!NOTE]
+> This is where we specify what views we use, and whether we want read or read/write permissions.
+
+You can use an ACL too optionally.
 ```
 ! Create a group
-snmp-server group <groupname> v3 <access-type> access <ACL number (optional)>
+snmp-server group <groupname> v3 <access-type> <read/write> <view_name> (access <ACL number (optional)>)
 
 ! There are 3 access types:
 ! noauth: No authentication and no encryption.
@@ -157,9 +166,11 @@ snmp-server host <trap_host_ip> public
 ```
 enable
 configure terminal
+! Create a view with everything permitted
+snmp-server view root iso included
 
-! Create a group without specifying a view
-snmp-server group mygroup v3 priv
+! Create a group specifying read(inferred)/write permissions to the root view 
+snmp-server group mygroup v3 priv write root
 
 ! Create a user in the group
 snmp-server user myuser mygroup v3 auth sha myauthpassword priv aes myprivpassword
