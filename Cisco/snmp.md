@@ -19,7 +19,8 @@ Sources
 
 [SNMPv3 Tempalte](https://community.cisco.com/t5/networking-knowledge-base/configuration-template-for-snmpv3/ta-p/4666450)
 
-## General config (optional)
+General config (optional)
+---
 > [!NOTE]
 > It is best practice to set these. The first **snmp-server** setting you enter enables all (supported) versions of SNMP. Anything beyond that is optional.
 
@@ -46,7 +47,9 @@ show snmp
 no snmp-server
 ```
 
-## SNMPv1 & SNMPv2 configuration (Simpler, less serucre, recommended for first try)
+SNMPv1 & SNMPv2 configuration (Simpler, less serucre, recommended for first try)
+---
+
 First we configure authentication
 > [!NOTE]
 > These require something referred to as a **community string** to be set up. This is analogous to a **password**, but this community string sounds fancier and more confusing, so it's a perfect name.
@@ -78,7 +81,8 @@ For traps you can configure what events will trigger an update.
 snmp-server enable traps snmp authentication linkup linkdown coldstart warmstart
 ```
 
-## SNMPv3 configuration
+SNMPv3 configuration
+---
 This is somewhat different from the previous two, but a lot more secure. This is the one you should probably use if you can get it working.
 
 > [!NOTE]
@@ -135,7 +139,8 @@ As well as event triggers
 snmp-server enable traps snmp authentication linkup linkdown coldstart warmstart
 ```
 
-## Minimum working config examples:
+Minimum working config examples:
+---
 Courtesy of ChatGPT
 
 ### SNMPv1

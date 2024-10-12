@@ -12,7 +12,7 @@ Configuration
 Todo.
 
 
-Minimal configuration exmaple:
+Minimum working config examples:
 ---
 
 Router1

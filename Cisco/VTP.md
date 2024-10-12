@@ -23,7 +23,7 @@ vtp version (1,2,3)
 ```
 
 
-Minimal configurations:
+Minimum working config examples:
 ---
 
 Server:

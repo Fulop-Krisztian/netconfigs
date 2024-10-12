@@ -1,7 +1,25 @@
-# netconfigs
+```
+                                                                         ad88  88                          
+                           ,d                                           d8"    ""                          
+                           88                                           88                                 
+8b,dPPYba,    ,adPPYba,  MM88MMM  ,adPPYba,   ,adPPYba,   8b,dPPYba,  MM88MMM  88   ,adPPYb,d8  ,adPPYba,  
+88P'   `"8a  a8P_____88    88    a8"     ""  a8"     "8a  88P'   `"8a   88     88  a8"    `Y88  I8[    ""  
+88       88  8PP"""""""    88    8b          8b       d8  88       88   88     88  8b       88   `"Y8ba,   
+88       88  "8b,   ,aa    88,   "8a,   ,aa  "8a,   ,a8"  88       88   88     88  "8a,   ,d88  aa    ]8I  
+88       88   `"Ybbd8"'    "Y888  `"Ybbd8"'   `"YbbdP"'   88       88   88     88   `"YbbdP"Y8  `"YbbdP"'  
+                                                                                    aa,    ,88             
+                                                                                     "Y8bbdP"              
+```
+
 A repository containing all sorts of configs for all sorts of network related things
 
-Feel free to use these configs.
+The three main types of configs:
+- Cisco
+- Linux (Especially debian/raspbian)
+- Windows power(s)hell (The name looks cool, but it actually isn't. Trust me.)
 
 A **minimal working configuration** is usually included with the documents.
 The rest of the document is a more descriptive and tries to give you the digest.
+
+
+Feel free to use these configs. Cheers to aspiring system administrators.

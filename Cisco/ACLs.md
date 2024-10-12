@@ -25,6 +25,7 @@ cisco recommendation is that we configure:
 
 
 Configuration
+---
 
 > [!NOTE]
 > - Too long ACLs can impact performance
@@ -51,7 +52,8 @@ ip access-list <extended/standard> <acl_name>
 <line number> <extended or standard configuration>
 ```
 
-#### Examples:
+Minimum working config examples:
+---
 
 ##### permit any host that wants to reach 10.0.0.5 on tcp port 80. Deny all else.
 ```
