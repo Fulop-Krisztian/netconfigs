@@ -110,7 +110,7 @@ sudo nmcli connection up WifiName
 sudo nmcli connection modify Wired\ connection\ 1 master bond0
 sudo nmcli connection up Wired\ connection\ 1
 
-# With this you are finished. You should now set a static IP for the bond, or leave it as DHCP. Be aware that if you leave it on DHCP the bond will use the mac of the currently active interface for the request, thus YOU WILL NOT BE ABLE TO USE RESERVATIONS
+# With this you are finished. You should now set a static IP for the bond, or leave it as DHCP. Be aware that if you leave it on DHCP the bond will use the mac of the currently active interface for the request, thus your reservations may be inconsistent
 ```
 
 
