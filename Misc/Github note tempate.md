@@ -14,7 +14,7 @@
 > Negative potential consequences of an action.
 
 
-codeblock (hard to type on Hungarian keyboard)
+codeblock (hard to type on Hungarian keyboard (meaning I can never remember the keys))
 
 
 ```
