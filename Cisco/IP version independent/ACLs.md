@@ -1,5 +1,5 @@
 # ACL configuration
-
+#cisco #firewall #
 Terminology, general knowledge
 ---
 - Access Control List. It controls access.
@@ -63,7 +63,7 @@ Minimum working config examples:
 access-list 120 permit tcp any host 10.0.0.5 eq 80
 ```
 
-#### deny any host access to a whole subnet with the given ports
+##### deny any host access to a whole subnet with the given ports
 ```
 access-list 112 deny tcp any 172.16.0.0 0.0.255.255 eq 443
 access-list 112 deny tcp any 172.16.0.0 0.0.255.255 eq 80
@@ -82,13 +82,13 @@ line vty 0 15
 access-class notelnet in
 ```
 
-## Applying to interface
+##### Applying to interface
 ```
 interface <interface>
 ip access-group <ACL> <in/out>
 ```
 
-## Applying to vty 
+##### Applying to vty 
 ```
 line vty 0 15
 ip access-class 

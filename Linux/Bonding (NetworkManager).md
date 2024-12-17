@@ -9,8 +9,6 @@ Terminology, general knowledge
 - A bonding mode is the a method of how the child interfaces of the bond are utilized. You can find out more about them in the configuration section and in the IBM source.
 
 
-                
-
 
 Prerequisites
 ---
@@ -61,6 +59,8 @@ Configuration
 
 
 ### Configuration start
+
+NetworkManager basics: [[IP config (NetworkManager)]]
 > [!NOTE]  
 > Create the bond interface. We will add the child interfaces later.
 

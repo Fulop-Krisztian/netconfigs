@@ -8,7 +8,7 @@ Terminology, general knowledge
 
 Prerequisites
 ---
-- Two Cisco routers at least, since HSPR is propietary.
+- Two Cisco routers at least, since HSPR is proprietary.
 
 Configuration
 ---

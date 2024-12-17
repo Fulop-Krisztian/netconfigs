@@ -1,4 +1,5 @@
 # VTP configuration for cisco switches
+#cisco #switch #vlan
 
 Terminology, general knowledge
 ---
@@ -48,14 +49,6 @@ vtp version (1,2,3)
 > | Allowed and Denied VLANs | No | No (Only Filtering) | Yes, can set both allowed and denied VLANs |
 > | Domain Name/ IP Address Advertisement | No | No | Yes |
 > | Support for Other Protocols | Limited | Limited | Supports additional protocols |
-
-
-
-
-
-Minimum working config examples:
----
-
 
 
 Minimum working config examples:

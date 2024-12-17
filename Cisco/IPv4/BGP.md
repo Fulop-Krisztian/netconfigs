@@ -1,5 +1,6 @@
 # BGP configuration on Cisco devices
 
+
 Terminology, general knowledge
 ---
 - An autonomous zone is a collection of devies that logically belong together.
