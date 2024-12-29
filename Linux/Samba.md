@@ -1,9 +1,14 @@
+```
+# Install Samba packages
+sudo apt install samba samba-common-bin -y
+```
 
-
+This configuration is very locked down. Overwrite the default, but back the default up just in case
 ```
 [global]
     # Network settings
     workgroup = HOME
+    # Change realm to server domain
     realm = home.arpa
     netbios name = happycloud
     server string = ZFS Archive Server
@@ -44,6 +49,7 @@
 
 [archive]
     comment = ZFS Archive Share
+    // Change this path
     path = /mediapool/archive
     valid users = louis
     invalid users = root
@@ -59,8 +65,32 @@
     veto files = /._*/.DS_Store/.Thumbs.db/.Trashes/
     delete veto files = yes
     follow symlinks = yes
-    wide links = yes
+    wide links = no
     ea support = yes
     inherit acls = yes
     hide unreadable = yes
+    guest ok = yes
+```
+
+#### Verify valid config:
+```
+testparm
+```
+
+#### After this, you need to give your user a samba password, to do this:
+
+```
+sudo smbpasswd -a <user>
+sudo smbpasswd -e <user>
+```
+
+#### Start and Enable Samba
+```
+# Restart Samba services
+sudo systemctl restart smbd
+sudo systemctl restart nmbd
+
+# Enable them to start at boot
+sudo systemctl enable smbd
+sudo systemctl enable nmbd
 ```
