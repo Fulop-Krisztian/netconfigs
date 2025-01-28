@@ -1,11 +1,11 @@
 # ACL configuration
-#cisco #firewall #
-Terminology, general knowledge
+#cisco #firewall 
+# Terminology, general knowledge
 ---
 - Access Control List. It controls access.
-- Filtering goes from most specific to least specific
+- Filtering should go from most specific to least specific when configuring
 - Placed on incoming or outgoing interfaces. Also some services support ACL filtering (like SSH or SNMP)
-- By default everything is denied
+- By default everything is denied (everything you want to permit must be permitted explicitly)
 
 Types
 ---
@@ -16,12 +16,13 @@ Types
 > - Extended
 > - Named (which can be standard or extended)
 
-cisco recommendation is that we configure:
+Cisco recommendation is that we configure:
 - Standard: Closest to destination
 - Extended: Closest to source
 
 > [!TIP]
->  Don't listen to the recommendations
+> Don't listen to the recommendations, use common sense.
+> (They like to ask these in exams though)
 
 
 Configuration
@@ -29,7 +30,7 @@ Configuration
 
 > [!NOTE]
 > - Too long ACLs can impact performance
->- Don't replace firewalls with ACLs.
+> - Don't replace firewalls with ACLs.
 
 ---
 For each type you should get acquainted with the network first. Then think about where the best place would be to filter, and only then write the configuration.
