@@ -1,11 +1,12 @@
 #cisco  #routing #vpn 
+
 Terminology, general knowledge
 ---
 IPsec: For the packet's encryption and security
 GRE: Encapsulates the packet in an IP packet. This allows transportation of the encaplsulated packet to another GRE endpoint
-
+An IPSec and GRE tunnel VPN looks something like this:
 IPsec(GRE tunnel(Original packet()))
-
+![[screenshot2025-01-29 084925.png]]
 
 Prerequisites
 ---
@@ -14,6 +15,7 @@ Prerequisites
 Sources
 ---
 https://www.youtube.com/watch?v=C_B9k0l6kEs
+Netacad CCNA module 8
 
 Configuration
 ---

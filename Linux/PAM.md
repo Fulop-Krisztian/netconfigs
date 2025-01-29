@@ -11,8 +11,10 @@ Prerequisites
 
 Sources
 ---
+
 [/usr/share/doc/Linux-PAM/index.html](file:///usr/share/doc/Linux-PAM/index.html)
 https://wiki.archlinux.org/title/PAM
+
 Configuration
 ---
 
