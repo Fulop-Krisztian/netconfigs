@@ -2,11 +2,15 @@
 
 Terminology, general knowledge
 ---
-IPsec: For the packet's encryption and security
+IPsec: For the packet's encryption, integrity and security. It's a framework which allows different technologies to be substituted into it.
+
+![IPsec Image 1](/Misc/Pictures/screenshot2025-01-29%20090414.png)
+![IPsec Image 2](/Misc/Pictures/screenshot2025-01-29%20091801.png)
+
 GRE: Encapsulates the packet in an IP packet. This allows transportation of the encaplsulated packet to another GRE endpoint
 An IPSec and GRE tunnel VPN looks something like this:
+![GRE encapsulation](/Misc/Pictures/screenshot2025-01-29%20084925.png)
 IPsec(GRE tunnel(Original packet()))
-![[screenshot2025-01-29 084925.png]]
 
 Prerequisites
 ---
