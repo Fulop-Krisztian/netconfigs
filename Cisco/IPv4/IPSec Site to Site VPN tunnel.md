@@ -1,6 +1,10 @@
 #cisco  #routing #vpn 
 Terminology, general knowledge
 ---
+IPsec: For the packet's encryption and security
+GRE: Encapsulates the packet in an IP packet. This allows transportation of the encaplsulated packet to another GRE endpoint
+
+IPsec(GRE tunnel(Original packet()))
 
 
 Prerequisites
