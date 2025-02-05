@@ -35,7 +35,7 @@ ipv6 address <address>/<prefix>
 
 > [!IMPORTANT]  
 > **Link local** addresses are generated only after the router knows that it is and IPv6 interface.
-> If you give it and IPv6 address, it already knows. 
+> If you give it an IPv6 address, it already knows. 
 > Otherwise *if you don't intend to give it an address, you should still give out the following command to enable link local communication*
 
 ```
