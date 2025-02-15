@@ -9,7 +9,7 @@ Terminology, general knowledge
 
 Prerequisites
 ---
-- [[IPv6]] networking is configured
+- [IPv6](IPv6.md) networking is configured
 - You don't actually need to configure addresses on intermediaries or point to point links between routers. Link local will take care of that (you do need to configure the router to use link local though, it will not make one automatically.).
 
 
