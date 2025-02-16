@@ -1,6 +1,7 @@
-# OSPFv3 confiugration on Cisco
+# OSPFv3 confiugration on Cisco devices
 #routing #dynamicrouting #ospf #cisco #ipv6
 
+For regular OSPF, see [OSPF](OSPF.md)
 Terminology, general knowledge
 ---
 - You need to configure interfaces here instead of networks

@@ -1,4 +1,7 @@
-# Title
+# OSPF configuration on Cisco devices
+#routing #dynamicrouting #ospf #cisco #ipv4
+
+For OSPFv3, see [OSPFv3](OSPFv3.md)
 
 Terminology, general knowledge
 ---
@@ -14,8 +17,8 @@ Sources
 
 Configuration
 ---
-
 ### Recommended basic configuration
+
 ```
 en
 conf t
@@ -24,23 +27,6 @@ no auto-summary
 do sh ip rou | in C
 
 ! network <ip> <subnet> for every IP that you see in the output of the last command
-```
-
-```
-en
-conf t
-router ospf 1
-no auto-summary
-do sh ip rou | in C
-
-network <ip> <subnet> area <area id> 
-
-! for every IP that you see in the output of the last command
-
-! Auth:
-ip ospf authentication message-digest
-interface <interface> message-digest-key 1 md5 <password>
-
 ```
 
 ### Redistribute
