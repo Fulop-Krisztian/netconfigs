@@ -31,7 +31,7 @@ Add-LocalGroupMember -Group Administrators -Member Ansible
 .\ConfigureRemotingForAnsible.ps1
 ```
 >[!IMPORTANT]
->This script also tries to run [.\ConfigureRemotingForAnsible.ps1](Windows/Scripts/ConfigureRemotingForAnsible.ps1) requires 
+>This script also tries to run [.\ConfigureRemotingForAnsible.ps1](Scripts/ConfigureRemotingForAnsible.ps1) requires 
 
 
 

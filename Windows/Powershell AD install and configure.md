@@ -14,9 +14,9 @@ Prerequisites
 Sources
 ---
 
-[AD installation script](Windows/Scripts/adinstall.ps1)
+[AD installation script](Scripts/adinstall.ps1)
 ---
-[adinstall.ps1](Windows/Scripts/adinstall.ps1)
+[adinstall.ps1](Scripts/adinstall.ps1)
 The script has a verbose description, but here's an overview:
 
 > [!NOTE]
@@ -48,9 +48,9 @@ With arguments:
 ```
 
 
-[AD environment setup](Windows/Scripts/ad_env_setup.ps1)
+[AD environment setup](Scripts/ad_env_setup.ps1)
 ---
-[ad_env_setup.ps1](Windows/Scripts/ad_env_setup.ps1)
+[ad_env_setup.ps1](Scripts/ad_env_setup.ps1)
 This script has a verbose description. You will find much more information about it than here. 
 This script is mostly AI generated, and will probably be of not much use beyond creating a lab environment 
 Here's an overview:

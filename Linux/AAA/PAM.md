@@ -4,7 +4,7 @@ Terminology, general knowledge
 ---
 - Framework/library for applications to authenticate users
 - With its help, you are allowed to choose HOW you authenticate users
-![Linux Pam role](Misc/Pictures/Linux%20Pam%20role.png)
+![Linux Pam role](../../Misc/Pictures/Linux%20Pam%20role.png)
 Prerequisites
 ---
 
