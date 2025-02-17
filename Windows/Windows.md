@@ -6,7 +6,7 @@ Automation
 ---
 
 #### Powershell
-[AD lab configuration and examples](Powershell%20AD%20install%20and%20configure.md)
+[AD lab configuration and examples](Windows/Powershell%20AD%20install%20and%20configure.md)
 
 #### Ansible
 [Windows preparation for Ansible automation](Ansible%20configuration%20(Windows).md)

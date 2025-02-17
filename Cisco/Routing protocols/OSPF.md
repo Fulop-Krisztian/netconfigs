@@ -1,7 +1,7 @@
 # OSPF configuration on Cisco devices
 #routing #dynamicrouting #ospf #cisco #ipv4
 
-For OSPFv3, see [OSPFv3](OSPFv3.md)
+For OSPFv3, see [OSPFv3](Cisco/Routing%20protocols/OSPFv3.md)
 
 Terminology, general knowledge
 ---

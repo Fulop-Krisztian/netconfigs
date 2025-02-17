@@ -4,50 +4,50 @@ This is an overview of the Cisco knowledge base in netconfigs
 
 Automation
 ---
-[VTP: Automatic VLAN propagation between switches](VTP.md)
+[VTP: Automatic VLAN propagation between switches](Cisco/Other/VTP.md)
 
 #### Ansible
 
-[Ansible configuration](Ansible%20configuration.md)
+[Ansible configuration](Cisco/Other/Ansible%20configuration.md)
 
 
 
 Basics
 ---
-[IPv6](IPv6.md)
+[IPv6](Cisco/IPv6/IPv6.md)
 
 
 Address translation
 ---
-[NAT-PAT](NAT-PAT.md)
+[NAT-PAT](Cisco/Address%20translation/NAT-PAT.md)
 
 
 Dynamic routing
 ---
-[BGP](BGP.md)
-[EIGRP](EIGRP.md)
-[OSPF](OSPF.md)
-[OSPFv3](OSPFv3.md)
+[BGP](Cisco/Routing%20protocols/BGP.md)
+[EIGRP](Cisco/Routing%20protocols/EIGRP.md)
+[OSPF](Cisco/Routing%20protocols/OSPF.md)
+[OSPFv3](Cisco/Routing%20protocols/OSPFv3.md)
 
 
 Redundancy/HA
 ---
-[HSRP](HSRP.md)
+[HSRP](Cisco/Redundancy/HSRP.md)
 
 
 Access control/Firewall
 ---
-[ACLs](ACLs.md)
+[ACLs](Cisco/Other/ACLs.md)
 
 Monitoring
 ----
-[SNMP](SNMP.md)
+[SNMP](Cisco/Monitoring/SNMP.md)
 
 WAN
 ---
 ### Connections
-[PPP](PPP.md)
+[PPP](Cisco/Other/PPP.md)
 
 VPN
 ---
-[IPSec Site to Site VPN tunnel](IPSec%20Site%20to%20Site%20VPN%20tunnel.md)
+[IPSec Site to Site VPN tunnel](Cisco/VPN/IPSec%20Site%20to%20Site%20VPN%20tunnel.md)

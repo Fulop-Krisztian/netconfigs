@@ -14,7 +14,7 @@ With this command you can check how many failed authentication attempts there we
 journalctl --no-pager -xu ssh.service | grep 'authentication failure' | wc -l
 ```
 Output of running the command on my exposed system: (~77 days of data, with some skips in uptime on a dynamic residential IP), resulting in a fail count of 534056, or half a million failed logins. This is about 7000 login tries each day, or 290 each hour.
-![Public SSH command output.png](Public%20SSH%20command%20output.png)
+![Public SSH command output.png](Misc/Pictures/Public%20SSH%20command%20output.png)
 
 
 Resilient disk image/copy over SSH

@@ -16,7 +16,7 @@ Terminology, general knowledge
 
 Sources
 ---
-[Cisco's documentation](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/snmp/configuration/xe-16/snmp-xe-16-book/nm-snmp-cfg-snmp-support.html#GUID-C2F92A96-7EB8-4921-8491-46C4D7AD2D49)
+[](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/snmp/configuration/xe-16/snmp-xe-16-book/nm-snmp-cfg-snmp-support.html#GUID-C2F92A96-7EB8-4921-8491-46C4D7AD2D49)
 
 [SNMPv3 Tempalte](https://community.cisco.com/t5/networking-knowledge-base/configuration-template-for-snmpv3/ta-p/4666450)
 

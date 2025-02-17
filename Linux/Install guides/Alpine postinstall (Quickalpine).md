@@ -4,7 +4,7 @@ These are configurations I use after installing Alpine Linux (tested on a sys di
 Useful links
 ---
 
-[Alpine linux wiki](https://wiki.alpinelinux.org/wiki/Installation#Post-Installation)
+[](https://wiki.alpinelinux.org/wiki/Installation#Post-Installation)
 
 [Alpine repos online search](https://pkgs.alpinelinux.org/packages)
 
@@ -80,7 +80,7 @@ Change in `/boot/extlinux.conf`: `TIMEOUT 1`
 
 ### Starting services in an async way:
 
-[Alpine wiki on slow services delaying boot](https://wiki.alpinelinux.org/wiki/OpenRC#Preventing_slow_services_from_delaying_boot)
+[](https://wiki.alpinelinux.org/wiki/OpenRC#Preventing_slow_services_from_delaying_boot)
 
 ```bash
 mkdir /etc/runlevels/async
