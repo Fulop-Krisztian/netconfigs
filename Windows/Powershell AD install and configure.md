@@ -28,6 +28,9 @@ The script has a verbose description, but here's an overview:
 
 #### Running examples:
 
+> [!TIP]
+> You can also configure the default variables ni the script
+
 Argumentless:
 ```powershell
 # Installs with contoso.com, Password123, and CONTOSO NetBIOS
