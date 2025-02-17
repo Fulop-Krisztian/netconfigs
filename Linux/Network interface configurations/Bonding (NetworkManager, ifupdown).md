@@ -31,7 +31,8 @@ Configuration
 ---
 > [!CAUTION]
 > If possible, don't configure this over the network.
-> If you must, put the interface you don't use into the bond first, connect through the bond's IP, and only then put the other interface into the bond. You could also write a script to reset you network that you put on a timer if you want.
+> If you must, put the interface you're not currently using into the bond first, reconnect through the bond's IP, and only then put the other interface into the bond. 
+> You could also write a script to reset your network configuration that you put on a timer if you want (in case you mess up).
 
 ### Bonding modes
 > [!IMPORTANT]
@@ -58,7 +59,7 @@ Configuration
 >| **Verdict**                 | Use for first try      | Balanced choice             | Best if the network is ready       |
 
 
-### Configuration start
+### nmcli
 
 NetworkManager basics: [[IP config (NetworkManager)]]
 > [!NOTE]  
@@ -82,6 +83,9 @@ mcli device status
 
 > [!WARNING]  
 > If you are configuring over the network, here is where you should connect to the bond after it gets its first interface.
+
+### /etc/network/interfaces (ifupdown)
+
 
 
 if the interfaces you want to use completely unconfigured, see the RHEL wiki in the sources section

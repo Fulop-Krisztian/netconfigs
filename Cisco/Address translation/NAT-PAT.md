@@ -1,4 +1,4 @@
-# NAT konfiguráció cisco eszközökön
+# NAT and PAT (DNAT with overload) configuration on Cisco devices
 
 Terminology, general knowledge
 ---
@@ -6,8 +6,8 @@ Terminology, general knowledge
 
 Prerequisites
 ---
-- Belső és külső IP címek
-- Legalább 1 globális IP cím
+- Two clearly defined, separate networks (one "inside" and one "outside", or "LAN" and "WAN")
+- At least one global address (or WAN address)
 
 Sources
 ---
