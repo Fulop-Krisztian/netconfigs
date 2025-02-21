@@ -2,26 +2,10 @@
 
 This is an overview of the Cisco knowledge base in netconfigs
 
-Automation
----
-[VTP: Automatic VLAN propagation between switches](Other/VTP.md)
-
-#### Ansible
-
-[Ansible configuration](Other/Ansible%20configuration.md)
-
-
-
 Basics
 ---
 [IPv6](IPv6/IPv6.md)
 [Backup and restore](Config%20management/Backup%20and%20restore.md)
-
-
-Address translation
----
-[NAT-PAT](Address%20translation/NAT-PAT.md)
-
 
 Dynamic routing
 ---
@@ -30,15 +14,18 @@ Dynamic routing
 [OSPF](Routing%20protocols/OSPF.md)
 [OSPFv3](Routing%20protocols/OSPFv3.md)
 
+Address translation
+---
+[NAT-PAT](Address%20translation/NAT-PAT.md)
 
 Redundancy/HA
 ---
 [HSRP](Redundancy/HSRP.md)
 
-
 Access control/Firewall
 ---
 [ACLs](Other/ACLs.md)
+
 
 Monitoring
 ----
@@ -48,6 +35,14 @@ WAN
 ---
 ### Connections
 [PPP](Other/PPP.md)
+
+Automation
+---
+[VTP: Automatic VLAN propagation between switches](Other/VTP.md)
+
+#### Ansible
+
+[Ansible configuration](Other/Ansible%20configuration.md)
 
 VPN
 ---

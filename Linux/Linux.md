@@ -2,9 +2,7 @@
 
 This is an overview of the Linux knowledge base in netconfigs
 
-Automation
----
-[Ansible](Automation/Ansible.md)
+
 Netork configuration
 ---
 #### Basic interface configuration
@@ -20,11 +18,16 @@ Virtualization
 ---
 [Proxmox](Proxmox/Proxmox.md)
 
+Automation
+---
+[Ansible](Automation/Ansible.md)
+
 Other
 ---
-[Samba server in Linux](Services/Samba.md)
 [PAM](AAA/PAM.md)
 [Rsyslog](Monitoring/Rsyslog.md)
+#### Linux - Windows (AD) integration
+[Samba server in Linux](Services/Samba.md)
 
 Useful commands
 ---

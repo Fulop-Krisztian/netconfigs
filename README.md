@@ -14,12 +14,13 @@
 A repository containing all sorts of configs for all sorts of network related things
 
 The three main types of configs:
-- Cisco
-- Linux (Especially debian/raspbian)
-- Windows power(s)hell (The name looks cool, but it actually isn't. Trust me.)
+- [Cisco](Cisco/Cisco.md)
+- [Linux](Linux/Linux.md) (Mostly server oriented OSs, like Debian, RHEL, Alpine and derivatives)
+- [Windows](Windows/Windows.md)
 
 A **minimal working configuration** is usually included with the documents.
 The rest of the document is a more descriptive, still trying to include important details and highlighting pitfalls.
 
+Feel free to use these configurations as your own, no attribution required (except when I'm not the author, but someone else), but it is appreciated.
 
-Feel free to use these configs. Cheers to aspiring system administrators.
+Cheers to aspiring system administrators.
