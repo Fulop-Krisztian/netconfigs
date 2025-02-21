@@ -19,7 +19,7 @@ The three main types of configs:
 - Windows power(s)hell (The name looks cool, but it actually isn't. Trust me.)
 
 A **minimal working configuration** is usually included with the documents.
-The rest of the document is a more descriptive and tries to give you the digest.
+The rest of the document is a more descriptive, still trying to include important details and highlighting pitfalls.
 
 
 Feel free to use these configs. Cheers to aspiring system administrators.
