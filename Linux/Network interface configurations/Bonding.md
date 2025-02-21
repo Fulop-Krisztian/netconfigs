@@ -23,7 +23,7 @@ Sources
 > [!TIP]
 > These sources are really good. Check them out if something is not clear
 
-[](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/configuring_and_managing_networking/configuring-network-bonding_configuring-and-managing-networking#configuring-network-bonding_configuring-and-managing-networking) for a detailed overview of configuration
+[RHEL](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/configuring_and_managing_networking/configuring-network-bonding_configuring-and-managing-networking#configuring-network-bonding_configuring-and-managing-networking) for a detailed overview of configuration
 
 [IBM wiki](https://www.ibm.com/docs/en/linux-on-systems?topic=recommendations-bonding-modes) for a detailed description of bonding modes
 
@@ -61,7 +61,7 @@ Configuration
 
 ### nmcli
 
-NetworkManager basics: [IP config (NetworkManager)](NetworkManager))).md)
+NetworkManager basics: [IP config](IP%20config.md)
 > [!NOTE]  
 > Create the bond interface. We will add the child interfaces later.
 

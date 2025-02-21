@@ -4,28 +4,28 @@ This is an overview of the Linux knowledge base in netconfigs
 
 Automation
 ---
-[Ansible](./Automation/Ansible.md)
+[Ansible](Automation/Ansible.md)
 Netork configuration
 ---
 #### Basic interface configuration
-[IP config (NetworkManager)](IP%20config%20(NetworkManager).md)
-[Bonding (NetworkManager, ifupdown)](Bonding%20(NetworkManager,%20ifupdown).md)
+[IP config](Network%20interface%20configurations/IP%20config.md)
+[Bonding](Network%20interface%20configurations/Bonding.md)
 
 
 Installation guides
 ---
-[Alpine post installation configurations for a fast booting system (Quickalpine)](Alpine%20postinstall%20(Quickalpine).md)
+[Alpine post installation configurations for a fast booting system (Quickalpine)](Quickalpine)
 
 Virtualization
 ---
-[Proxmox](Linux/Proxmox/Proxmox)
+[Proxmox](Proxmox/Proxmox.md)
 
 Other
 ---
-[Samba server in Linux](./Services/Samba)
-[Pluggable Authentication Module (Default auth method on Linux)](./AAA/PAM)
-[Rsyslog (and why you might not want to use it)](Rsyslog.md)
+[Samba server in Linux](Services/Samba.md)
+[Pluggable Authentication Module (Default auth method on Linux)](Default%20auth%20method%20on%20Linux))
+[Rsyslog (and why you might not want to use it)](and%20why%20you%20might%20not%20want%20to%20use%20it))
 
 Useful commands
 ---
-[Command compendium](./Command%20compendium.md)
+[Command compendium](Command%20compendium.md)
