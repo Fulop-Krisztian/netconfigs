@@ -9,4 +9,4 @@ Automation
 [AD lab configuration and examples](Powershell%20AD%20install%20and%20configure.md)
 
 #### Ansible
-[Windows preparation for Ansible automation](Ansible%20configuration%20(Windows).md)
+[Windows preparation for Ansible automation](Windows/Ansible%20configuration.md)

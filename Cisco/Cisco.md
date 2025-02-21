@@ -15,6 +15,7 @@ Automation
 Basics
 ---
 [IPv6](IPv6/IPv6.md)
+[Backup and restore](Config%20management/Backup%20and%20restore.md)
 
 
 Address translation

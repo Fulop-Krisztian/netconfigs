@@ -14,7 +14,7 @@ Netork configuration
 
 Installation guides
 ---
-[Alpine post installation configurations for a fast booting system (Quickalpine)](Quickalpine)
+[Alpine postinstall configurations for a fast booting system](Install%20guides/Alpine%20postinstall%20Quickalpine.md)
 
 Virtualization
 ---
@@ -23,8 +23,8 @@ Virtualization
 Other
 ---
 [Samba server in Linux](Services/Samba.md)
-[Pluggable Authentication Module (Default auth method on Linux)](Default%20auth%20method%20on%20Linux))
-[Rsyslog (and why you might not want to use it)](and%20why%20you%20might%20not%20want%20to%20use%20it))
+[PAM](AAA/PAM.md)
+[Rsyslog](Monitoring/Rsyslog.md)
 
 Useful commands
 ---
