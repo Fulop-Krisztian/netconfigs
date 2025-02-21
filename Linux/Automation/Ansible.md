@@ -10,8 +10,8 @@ Terminology, general knowledge
 
 Related files
 ---
-[Ansible configuration (Windows)](Windows)))).md)
-[Ansible configuration](../../Cisco/Other/Ansible%20configuration.md)
+[Ansible configuration for Windows](../../Windows/Ansible%20configuration.md)
+[Ansible configuration for Cisco](../../Cisco/Other/Ansible%20configuration.md)
 Prerequisites
 ---
 - An Linux system with Ansible installed.
