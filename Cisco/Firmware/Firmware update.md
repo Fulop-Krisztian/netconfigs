@@ -93,3 +93,10 @@ This guide will focus on transferring via a serial connection in rommon so that 
 > Serial under the best configurations can still take up to 30 minutes for a 7MB file transfer on some devices
 > 
 > When you have the image on there, you can use the tftp method which is way faster
+
+TODO
+
+[Serial transfer](#Serial%20transfer)
+
+Copy image over XMODEM, don't set serial speed to high because it can cause issues even if you don't see it in terminal operation.
+
