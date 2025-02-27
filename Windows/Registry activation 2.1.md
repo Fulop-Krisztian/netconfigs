@@ -31,7 +31,7 @@ Next, right click on the
 
 It should look like this:
 
-![[image.png]]
+![[../- Attachments/Windows registry activation/KMS_4 key setting.png]]
 
   
 
@@ -64,7 +64,7 @@ or even more here:
 
 It should look something like this:
 
-![[image 1.png]]
+![[../- Attachments/Windows registry activation/Successful key install.png]]
 
 If it’s unsuccessful, try other keys.
 
@@ -78,7 +78,7 @@ If it’s unsuccessful, try other keys.
 
 It should look something like this:
 
-![[image 2.png]]
+![[../- Attachments/Windows registry activation/Successful key activation.png]]
 
   
 

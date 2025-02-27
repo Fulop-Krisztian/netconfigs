@@ -192,6 +192,6 @@ When compiling and linking to generate the desired "executables," they often con
 
   
 
-![[Untitled.png]]
+![[../../../- Attachments/Make pipeline.png]]
 
 Flow diagram of autoconf and automake
