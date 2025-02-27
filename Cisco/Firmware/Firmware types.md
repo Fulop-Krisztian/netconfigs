@@ -2,6 +2,10 @@
 created: 2025-02-27 13:28
 tags: #cisco #switch #router #basic #firmware
 
+References
+---
+[Firmware update](Firmware%20update.md)
+
 Naming convention
 ---
 

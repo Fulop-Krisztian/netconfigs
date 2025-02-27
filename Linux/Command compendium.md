@@ -26,3 +26,49 @@ sudo dd conv=noerror,sync if=/dev/sda bs=4M | ssh user@<your-pc-ip> "dd of=~/dis
 ```
 
 I use it to occasionally make a full image backup of my raspberry pi.
+
+
+Serial connections
+---
+In this guide we'll use a teminal utility called **`minicom`** for the serial terminal, and **`lrzsz`** for sending and receiving files over X/Y/ZMODEM. The guide assumes you have both of them installed.
+
+#### Connecting to serial devices with a through a terminal:
+
+1. First thing's first, you want to identify the serial connection:
+	- For USB serial cables:
+		```bash
+		ls /dev/ttyUSB*
+		```
+	- For regular RS232:
+		```
+		ls /dev/ttyS*
+		```
+2. Configure the connection:
+	```bash
+	minicom -s
+	```
+3. Use the connection
+	```bash
+	minicom
+	```
+	If you don't know what to set, you should usually set: 
+	- Baud rate to `9600` or `115200`
+	- Data bits to `8`
+	- Stop bits to `1`
+	- Parity to `none`
+	- Flow control to `XON/XOFF`
+#### Sending and receiving files with XMODEM:
+Replace `/dev/ttyUSB0` with the correct serial device.
+- To **send a file** via XMODEM:
+	```bash
+	sx <file> /dev/ttyUSB0
+	```
+	
+- To **receive a file** via XMODEM:
+	```bash
+	rx <file> /dev/ttyUSB0
+	```
+
+
+
+
