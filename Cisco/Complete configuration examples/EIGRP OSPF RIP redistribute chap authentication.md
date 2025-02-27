@@ -1,4 +1,6 @@
+#project #cisco #dynamicrouting #eigrp #ospf #rip #basic #ipv4 #router #switch #vlan 
 
+This was a class project, dated 2025-02-27
 # Subnets:
 
 | VLAN | Subnet     | Prefix | Total Addresses | Usable Range            | Router IP  |
@@ -11,6 +13,14 @@
 | 16   | 10.0.1.160 | /27    | 32              | 10.0.1.161 – 10.0.1.190 | 10.0.1.161 |
 | 8    | 10.0.1.192 | /28    | 16              | 10.0.1.193 – 10.0.1.206 | 10.0.1.193 |
 | –    | 10.0.1.208 | /30    | 4               | 10.0.1.209 – 10.0.1.210 | 10.0.1.209 |
+
+Topics covered:
+[EIGRP](../Routing%20protocols/EIGRP.md)
+[OSPF](../Routing%20protocols/OSPF.md)
+[RIP](../Routing%20protocols/RIP.md)
+[Redistribute](../Routing%20protocols/Redistribute.md)
+[PPP](../Other/PPP.md)
+[ACLs](../Other/ACLs.md)
 
 # Configurations
 
