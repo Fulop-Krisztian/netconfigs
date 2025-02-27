@@ -1,4 +1,4 @@
-#cisco  #routing #vpn 
+#cisco  #router  #vpn 
 
 Terminology, general knowledge
 ---

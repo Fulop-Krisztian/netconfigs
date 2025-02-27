@@ -1,5 +1,6 @@
-# Title
-
+# {{Title}}
+created: {{Date}} {{Time}}
+tags:
 Terminology, general knowledge
 ---
 

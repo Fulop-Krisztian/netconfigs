@@ -1,5 +1,5 @@
 # OSPF configuration on Cisco devices
-#routing #dynamicrouting #ospf #cisco #ipv4
+#router #dynamicrouting #ospf #cisco #ipv4
 
 For OSPFv3, see [OSPFv3](OSPFv3.md)
 
@@ -19,26 +19,27 @@ Configuration
 ---
 ### Recommended basic configuration
 
+
 ```
 en
 conf t
-router eigrp 1
+router ospf 1
 no auto-summary
 do sh ip rou | in C
 
-! network <ip> <subnet> for every IP that you see in the output of the last command
+network <ip> <subnet> area <area id> 
+
+! for every IP that you see in the output of the last command
 ```
 
-### Redistribute
 
-
+### Authentication
 ```
-router <protocol> <id>
-redistribute <redistribute_source>
-! Other things may be required based on what you redistribute from or to.
 
-! For redisting to OSPF, you need a subnets at the end of the command
-! For redisting to EIGRP, you need a bunch of numbers at the end because EIGRP uses those to do its metric calculation.
+! Auth:
+ip ospf authentication message-digest
+interface <interface> message-digest-key 1 md5 <password>
+
 ```
 
 

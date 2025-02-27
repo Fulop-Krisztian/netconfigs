@@ -1,5 +1,5 @@
 # OSPFv3 confiugration on Cisco devices
-#routing #dynamicrouting #ospf #cisco #ipv6
+#router #dynamicrouting #ospf #cisco #ipv6
 
 For regular OSPF, see [OSPF](OSPF.md)
 Terminology, general knowledge

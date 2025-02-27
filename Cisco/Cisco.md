@@ -5,14 +5,24 @@ This is an overview of the Cisco knowledge base in netconfigs
 Basics
 ---
 [IPv6](IPv6/IPv6.md)
+
 [Backup and restore](Config%20management/Backup%20and%20restore.md)
 
+[Firmware types](Firmware/Firmware%20types.md)
 Dynamic routing
 ---
 [BGP](Routing%20protocols/BGP.md)
-[EIGRP](Routing%20protocols/EIGRP.md)
+
+[EIGRP](EIGRP.md)
+
 [OSPF](Routing%20protocols/OSPF.md)
+
 [OSPFv3](Routing%20protocols/OSPFv3.md)
+
+[RIP](Routing%20protocols/RIP.md)
+
+##### Redistribution:
+[Redistribute](Routing%20protocols/Redistribute.md)
 
 Address translation
 ---
@@ -47,3 +57,7 @@ Automation
 VPN
 ---
 [IPSec Site to Site VPN tunnel](VPN/IPSec%20Site%20to%20Site%20VPN%20tunnel.md)
+
+Project with complete configurations
+---
+[Complete configurations](Complete%20configuration%20examples/Complete%20configurations.md)

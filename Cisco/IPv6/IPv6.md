@@ -19,7 +19,6 @@ Configuration
 > [!NOTE]  
 > First you have to enable IPv6 on the router. It is off by default.
 
-
 ```
 ipv6 unicast-routing
 ```
@@ -42,6 +41,17 @@ ipv6 address <address>/<prefix>
 ipv6 enable
 ```
 
+#### Multilayer switch:
+
+> [!NOTE]  
+> On some MLSs, you have to configure explicitly that you want to use dual stack IPv4 and IPv6. To do so, give the following command:
+
+```
+en
+conf t
+sdm prefer dual-ipv4-and-ipv6 default
+do reload
+```
 Minimum working config examples:
 ---
 Only configure a link-local address
