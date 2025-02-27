@@ -1,5 +1,5 @@
 # VTP configuration for cisco switches
-#cisco #switch #vlan
+#cisco #switch #vlan #automation 
 
 Terminology, general knowledge
 ---

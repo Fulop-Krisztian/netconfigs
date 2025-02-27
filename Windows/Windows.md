@@ -9,3 +9,16 @@ Automation
 
 #### Ansible
 [Windows preparation for Ansible automation](Windows/Ansible%20configuration.md)
+
+
+Fixes
+---
+[Repairing NTFS partitions](CHKDSK.md)
+
+
+Other
+---
+
+[Linux - Windows dual boot Compatibility](../Linux/Windows%20Compatibility.md)
+
+[Activate Windows without a license](Registry%20activation%202.1.md)

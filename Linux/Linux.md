@@ -7,7 +7,15 @@ Netork configuration
 ---
 #### Basic interface configuration
 [IP config](Network%20interface%20configurations/IP%20config.md)
+
 [Bonding](Network%20interface%20configurations/Bonding.md)
+
+[Enable wake on lan](Network%20interface%20configurations/Enable%20wake%20on%20lan.md)
+
+
+Fixes
+---
+[Common booting issues](Fixes/Booting.md)
 
 
 Installation guides
@@ -22,13 +30,37 @@ Automation
 ---
 [Ansible](Automation/Ansible.md)
 
+Configurations
+---
+
+[fstab: automounting filesystems](-%20Configurations/Auto%20mount%20with%20fstab.md)
+
+[Configuring Linux for gaming](-%20Configurations/Games.md)
+
+[Scripts](-%20Scripts/Scripts.md)
+---
+
 Other
 ---
+
+
 [PAM](AAA/PAM.md)
+
 [Rsyslog](Monitoring/Rsyslog.md)
+
+[LFS Project](LFS%20Project/LFS%20Project.md)
+
+[Raspberry Pi](Raspberry%20Pi/Raspberry%20Pi.md)
 #### Linux - Windows (AD) integration
+
 [Samba server in Linux](Services/Samba.md)
+
+[Windows Compatibility](Windows%20Compatibility.md)
+
+
 
 Useful commands
 ---
 [Command compendium](Command%20compendium.md)
+
+

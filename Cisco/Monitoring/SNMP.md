@@ -1,5 +1,5 @@
 # SNMP (v1,v2c,v3) configuration for Cisco IOS devices
-#snmp #syslog #telemetry #cisco 
+#telemetry #cisco
 In this document you will find a 100% working no scam no lie no cheat 101% work punjabi no virus method to configure SNMP for a cisco device.
 
 Prerequisites
