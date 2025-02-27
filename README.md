@@ -1,3 +1,8 @@
+- [Cisco](Cisco/Cisco.md)
+- [Linux](Linux/Linux.md) (Mostly server oriented OSs, like Debian, RHEL, Alpine and derivatives)
+- [Windows](Windows/Windows.md)
+- [Cloud](Cloud/Cloud.md)
+
 ```
                                                                          ad88  88                          
                            ,d                                           d8"    ""                          
@@ -11,12 +16,7 @@
                                                                                      "Y8bbdP"              
 ```
 
-A repository containing all sorts of configs for all sorts of network related things
-
-The three main types of configs:
-- [Cisco](Cisco/Cisco.md)
-- [Linux](Linux/Linux.md) (Mostly server oriented OSs, like Debian, RHEL, Alpine and derivatives)
-- [Windows](Windows/Windows.md)
+A repository containing all sorts of configs for all sorts of network and server related things
 
 A **minimal working configuration** is usually included with the documents.
 The rest of the document is a more descriptive, still trying to include important details and highlighting pitfalls.
