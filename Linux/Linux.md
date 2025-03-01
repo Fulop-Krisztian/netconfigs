@@ -53,6 +53,7 @@ Other
 
 [Raspberry Pi](Raspberry%20Pi/Raspberry%20Pi.md)
 
+
 #### Linux - Windows (AD) integration
 
 [Samba server in Linux](Services/Samba.md)
@@ -61,8 +62,9 @@ Other
 
 
 
-Useful commands
+[Useful commands](Command%20compendium.md)
 ---
-[Command compendium](Command%20compendium.md)
+[Compression](-%20Configurations/Compression.md)
+
 
 

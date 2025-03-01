@@ -15,9 +15,8 @@ Prerequisites
 - You have the mentioned compression programs installed. They should come by default on most systems.
 - You have good enough hardware, if you want to run the highest settings.
 
-Sources/references
+Sources
 ---
-[Linux](../Linux.md)
 https://wiki.archlinux.org/title/Archiving_and_compression
 
 
