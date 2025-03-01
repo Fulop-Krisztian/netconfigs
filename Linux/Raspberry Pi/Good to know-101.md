@@ -1,36 +1,47 @@
-  
+# Good to know-101
+created: 2025-03-01 14:49
+tags: #linux #firmware
+
+
+Prerequisites
+---
+- You have a Raspberry PI
+- You have some way to write data to an SD card
+- You have an appropriate power supply (15 watts for a RPI 4)
+
+Sources
+---
 
 > [!info] Raspberry Pi Documentation - Raspberry Pi OS  
 > The official documentation for Raspberry Pi computers and microcontrollers  
 > [https://www.raspberrypi.com/documentation/computers/os.html](https://www.raspberrypi.com/documentation/computers/os.html)  
 
-  
-
 A lot of options here (screen is turned through here off here): `sudo raspi-config`
 
-## LED Warning Flash Codes
+LED Warning Flash Codes
+---
 
-|   |   |   |
-|---|---|---|
-|Long flashes|Short flashes|Status|
-|0|3|Generic failure to boot|
-|0|4|start*.elf not found|
-|0|7|Kernel image not found|
-|0|8|SDRAM failure|
-|0|9|Insufficient SDRAM|
-|0|10|In HALT state|
-|2|1|Partition not FAT|
-|2|2|Failed to read from partition|
-|2|3|Extended partition not FAT|
-|2|4|File signature/hash mismatch - Pi 4|
-|3|1|SPI EEPROM error - Pi 4|
-|3|2|SPI EEPROM is write protected - Pi4|
-|3|3|I2C error - Pi 4|
-|3|4|Secure-boot configuration is not valid|
-|4|4|Unsupported board type|
-|4|5|Fatal firmware error|
-|4|6|Power failure type A|
-|4|7|Power failure type B|
+|              |               |                                        |
+| ------------ | ------------- | -------------------------------------- |
+| Long flashes | Short flashes | Status                                 |
+| 0            | 3             | Generic failure to boot                |
+| 0            | 4             | start*.elf not found                   |
+| 0            | 7             | Kernel image not found                 |
+| 0            | 8             | SDRAM failure                          |
+| 0            | 9             | Insufficient SDRAM                     |
+| 0            | 10            | In HALT state                          |
+| 2            | 1             | Partition not FAT                      |
+| 2            | 2             | Failed to read from partition          |
+| 2            | 3             | Extended partition not FAT             |
+| 2            | 4             | File signature/hash mismatch - Pi 4    |
+| 3            | 1             | SPI EEPROM error - Pi 4                |
+| 3            | 2             | SPI EEPROM is write protected - Pi4    |
+| 3            | 3             | I2C error - Pi 4                       |
+| 3            | 4             | Secure-boot configuration is not valid |
+| 4            | 4             | Unsupported board type                 |
+| 4            | 5             | Fatal firmware error                   |
+| 4            | 6             | Power failure type A                   |
+| 4            | 7             | Power failure type B                   |
 
 ## Useful Utilities
 

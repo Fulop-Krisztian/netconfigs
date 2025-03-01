@@ -22,10 +22,44 @@ Resilient disk image/copy over SSH
 With this command you can image a whole disk with `dd` and output the file over SSH to a different machine. The `dd` command also has some other switches (`conv=noerror,sync`), which make it ignore errors by copying zeroes in place of unreadable data, keeping the alignment of the disk
 
 ```bash
-sudo dd conv=noerror,sync if=/dev/sda bs=4M | ssh user@<your-pc-ip> "dd of=~/diskimage.img"
+sudo dd conv=noerror,sync if=/dev/<disk> bs=4M | ssh user@<your-pc-ip> "dd of=<path_to_image>.img"
 ```
 
 I use it to occasionally make a full image backup of my raspberry pi.
+
+#### Compression
+
+You could also [compress it with ZSTD](-%20Configurations/Compression.md#ZSTD) before you send it (In case the network connection is slow):
+```bash
+# This uses a middling compression ratio, good for Raspberry Pis (tested on 4B, higher models could handle higher levlels efficiently). See the linked compression docuemnt for other options
+
+sudo dd conv=noerror,sync if=/dev/<disk> bs=4M | zstd -4 -T0 | ssh user@<your-pc-ip> "dd of=<path_to_image>.img"
+```
+
+[Testing on a Raspberry Pi 4](-%20Scripts/Raspberry%20Pi%20disk%20backup%20speed%20test.md), copying over a gigabit LAN, with different compression ratios:
+
+> [!IMPORTANT]  
+> Observed speed is measured from the perspective of the sending `dd` command, so it takes into account that compressed data is worth more. 
+> 
+> It does not, however, represent the actual data transferred over the network
+
+Tests ran for around 120 seconds each
+
+| Compression ratio        | Observed speed               |
+| ------------------------ | ---------------------------- |
+| No compression (control) | 19.2 MB/s                    |
+| 0                        | 20.0 MB/s                    |
+| 2                        | 23.4 MB/s (Fastest observed) |
+| 4                        | 19.2 MB/s                    |
+| 5                        | 18.7 MB/s                    |
+
+
+Or on the receiving machine (in case the transmitter's CPU is slow):
+```bash
+# This uses a an extreme and slow compression ratio, assuming a strong recieving server. See the linked compression docuemnt for other options
+
+sudo dd conv=noerror,sync if=/dev/<disk> bs=4M | ssh user@<your-pc-ip> "dd of=<path_to_image>.img | zstd --ultra -22 --long=31 -T0 -v > <path_to_image>.img.zst"
+```
 
 
 Serial connections

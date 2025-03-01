@@ -1,4 +1,5 @@
 # Linux overview
+tags: #linux #overview 
 
 This is an overview of the Linux knowledge base in netconfigs
 
@@ -51,6 +52,7 @@ Other
 [LFS Project](LFS%20Project/LFS%20Project.md)
 
 [Raspberry Pi](Raspberry%20Pi/Raspberry%20Pi.md)
+
 #### Linux - Windows (AD) integration
 
 [Samba server in Linux](Services/Samba.md)
