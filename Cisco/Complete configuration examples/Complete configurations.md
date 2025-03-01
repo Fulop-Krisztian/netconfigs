@@ -1,4 +1,4 @@
-These configurations are complete configuratoins for a full PT or other kind of project file.
+These configurations are complete configurations for a full PT or other kind of project file.
 
 PT
 ---

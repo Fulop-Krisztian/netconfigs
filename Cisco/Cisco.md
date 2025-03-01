@@ -9,6 +9,7 @@ Basics
 [Backup and restore](Config%20management/Backup%20and%20restore.md)
 
 [Firmware types](Firmware/Firmware%20types.md)
+
 Dynamic routing
 ---
 [BGP](Routing%20protocols/BGP.md)
@@ -43,6 +44,9 @@ Monitoring
 
 WAN
 ---
+
+[BGP](Routing%20protocols/BGP.md)
+
 ### Connections
 [PPP](Other/PPP.md)
 
@@ -58,6 +62,6 @@ VPN
 ---
 [IPSec Site to Site VPN tunnel](VPN/IPSec%20Site%20to%20Site%20VPN%20tunnel.md)
 
-Project with complete configurations
+Projects with complete configurations
 ---
 [Complete configurations](Complete%20configuration%20examples/Complete%20configurations.md)
