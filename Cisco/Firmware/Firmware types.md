@@ -60,19 +60,20 @@ A more complete table of features:
 | `security`                 | Security features, including firewall, VPN, and encryption support.              |
 | `spservices`               | Service provider features such as MPLS and high-performance routing.             |
 | `universal`                | Universal image with all features, but features are activated based on licenses. |
-| `universal`                | Universal image with cryptographic support.                                      |
 | `metroipaccess`            | Metro Ethernet routing features for Layer 2 and Layer 3 services.                |
 
 ##### Affixes
-- `k9`: For example: `c3550-ipservicesk9-tar.122-44.SE6`, means that it includes cryptographic features. This refers to very basic cryptographic features, like SSH, and might not be present on newer images (since to be honest it should be taken for granted)
+There are some standardized affixes that may be found on multiple feature sets, these include:
+
+- `k9`: For example: `c3550-ipservicesk9-tar.122-44.SE6`, means that it includes cryptographic features. This refers to very basic cryptographic features, like SSH. This affix might not be present on newer images (since it should be taken for granted nowadays).
 
 
-For switches you might find `lanbase` images. They are only capable of layer 2 (except management IP).
+For switches you might find `lanbase` images. They are only capable of layer 2 (except for management IP).
 
 #### Compression
 TODO
 
-Not too important, you don't have to deal with it yourself
+Not too important, you probably don't have to deal with it yourself
 
 #### Version
 
