@@ -72,7 +72,7 @@ hive_name>.tar.zst
 
 Single file:
 ```bash
-zstd -c -T0 --long -19 - <filename> > <filename>.zst
+zstd -c -T0 --long -19 <filename> > <filename>.zst
 ```
 ##### Extreme compression with ZSTD:
 
@@ -83,7 +83,7 @@ hive_name>.tar.zst
 ```
 Single file:
 ```bash
-zstd -c -T0 --long=31 --ultra -19 - <filename> > <filename>.zst
+zstd -c -T0 --long=31 --ultra -19 <filename> > <filename>.zst
 ```
 
 

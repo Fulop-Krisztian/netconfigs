@@ -40,15 +40,17 @@ vtp version (1,2,3)
 ```
 > [!TIP]
 > According to llama 3, these are how the different versions differ
-> | Feature | VTPv1 | VTPv2 | VTPv3 |
-> | --- | --- | --- | --- |
-> | Maximum VLANs | 16 | 16,000 | 4094 (Enhanced Mode), 1024 (Standard Mode) |
-> | Encryption of VTP Packets | No | No | Yes |
-> | VLAN Pruning | Limited | Enhanced | Further Enhancements in Enhanced Mode |
-> | Filtering by VLAN List | No | Yes | Yes |
-> | Allowed and Denied VLANs | No | No (Only Filtering) | Yes, can set both allowed and denied VLANs |
-> | Domain Name/ IP Address Advertisement | No | No | Yes |
-> | Support for Other Protocols | Limited | Limited | Supports additional protocols |
+
+
+| Feature                               | VTPv1   | VTPv2               | VTPv3                                      |
+| ------------------------------------- | ------- | ------------------- | ------------------------------------------ |
+| Maximum VLANs                         | 16      | 16,000              | 4094 (Enhanced Mode), 1024 (Standard Mode) |
+| Encryption of VTP Packets             | No      | No                  | Yes                                        |
+| VLAN Pruning                          | Limited | Enhanced            | Further Enhancements in Enhanced Mode      |
+| Filtering by VLAN List                | No      | Yes                 | Yes                                        |
+| Allowed and Denied VLANs              | No      | No (Only Filtering) | Yes, can set both allowed and denied VLANs |
+| Domain Name/ IP Address Advertisement | No      | No                  | Yes                                        |
+| Support for Other Protocols           | Limited | Limited             | Supports additional protocols              |
 
 
 Minimum working config examples:
