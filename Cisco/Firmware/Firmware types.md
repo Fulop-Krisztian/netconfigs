@@ -9,7 +9,7 @@ References
 Naming convention
 ---
 
-Cisco categorizes firmware in multiple different ways, but the name convention remains the same across versions. The convention is:
+Cisco categorizes firmware in multiple different ways, but the naming convention remains the same across versions. The convention is:
 
 `<platform>-<feature_set>-<compression>.<version>.<releasetype>`
 
@@ -22,7 +22,7 @@ For example:  **`C3900-universalk9-mz.SPA.151-4.M1.bin`**
 
 #### Platform
 
-Platforms refer to the physical hardware. Usually one direct matches are compatible, different versions (Like ) of the same hardware usually don't work.
+Platforms refer to the physical hardware. Usually only direct matches are compatible, different versions (Like c3550 and c3550x) of the same hardware usually don't work.
 
 | **Platform Identifier**  | **Device/Hardware**                                  |
 |--------------------------|------------------------------------------------------|
@@ -41,14 +41,14 @@ Platforms refer to the physical hardware. Usually one direct matches are compati
 
 If you have a modern enough device to be listed, you could try the [Cisco feature navigator](https://cfnng.cisco.com/)
 
-This is the most important. This may indicate whether you have [IPv6](../IPv6/IPv6.md) support or not.
+This is the most important. This may indicate, for example, whether you have [IPv6](../IPv6/IPv6.md) support or not.
 
-The most common you might encounter are with their hallmark features:
+The most common you might encounter are (with their hallmark features):
 - `ipbase`: Poor to no IPv6 support.
 - `ipservices`: Good IPv6 support.
 - `universal`: Pretty good support for everything.
 
-A more complete table:
+A more complete table of features:
 
 | **Feature Set Identifier** | **Description**                                                                  |
 | -------------------------- | -------------------------------------------------------------------------------- |
