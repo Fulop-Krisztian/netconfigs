@@ -11,12 +11,14 @@ Prerequisites
 
 Sources
 ---
-
+[Default route configuration](https://www.cisco.com/c/en/us/support/docs/ip/enhanced-interior-gateway-routing-protocol-eigrp/200279-Configure-Default-route-in-EIGRP.html)
 Configuration
 ---
 
-> [!NOTE] 
-> Basic configuration
+### Advertising networks
+
+> [!IMPORTANT] 
+> You can't advertise any networks that isn't directly connected to the router on at least one interface that is up. (For example, 0.0.0.0)
 
 ```
 en
@@ -28,7 +30,18 @@ do sh ip rou | in C
 ! network <ip> <subnet> for every IP that you see in the output of the last command
 ```
 
+### Default routes
 
+#### Redistribute method:
+
+> [!NOTE]  
+> Advertising default routes. This is the way to advertise 0.0.0.0
+
+```
+router eigrp 1
+! You can change the numbers (raise the first one to raise priority) to change the precedence if multiple default routes are advertized 
+redistribute static metric 100000 1000 255 1 1500
+```
 ### Authentication:
 
 > [!IMPORTANT]

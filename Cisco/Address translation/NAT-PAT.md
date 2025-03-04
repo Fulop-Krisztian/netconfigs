@@ -15,8 +15,7 @@ Sources
 Configuration
 ---
 
-> [!NOTE]  
-> Static one-to-one
+### Static one-to-one
 
 ```
 ip nat inside source static <local_ip> <global_ip>
@@ -27,6 +26,26 @@ ip nat inside
 interface <outide_interface>
 ip nat outside
 ```
+
+### PAT to port (SOHO )
+
+> [!NOTE]  
+> This is exactly what a SOHO router does that you may have at home: It translates all addresses from the inside interfaces, to the outside interface, using the outside interface's IP.
+
+```
+! This will be more secure if you define the exact IP range you use, but this works as well.
+ip access-list standard INSIDE-NET
+	permit 0.0.0.0 255.255.255.255
+
+ip nat inside source list INSIDE-NET interface <outside_interface>
+
+interface <inside_interface>
+ip nat inside
+interface <outide_interface>
+ip nat outside
+
+```
+
 
 
 > [!NOTE]  
