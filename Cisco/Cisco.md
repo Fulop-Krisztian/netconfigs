@@ -14,7 +14,7 @@ Dynamic routing
 ---
 [BGP](Routing%20protocols/BGP.md)
 
-[EIGRP](EIGRP.md)
+[EIGRP](Routing%20protocols/EIGRP.md)
 
 [OSPF](Routing%20protocols/OSPF.md)
 

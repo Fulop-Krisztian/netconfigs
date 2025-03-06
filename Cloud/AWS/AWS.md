@@ -5,8 +5,8 @@ tags: #vpn #cloud #overview
 Prepare for a naming scheme unlike anything you've seen before. They made sure that *nothing* makes sense. 
 *What's a VPC? Virtual PC you say? No, it's actually Virtual Private Cloud.* 
 
-![AWS overview of services](../../-%20Attachments/Pasted%20image%2020250303084600.png)
-![Similarities between AWS and traditional IT systems](../../-%20Attachments/Pasted%20image%2020250303090419.png)
+![AWS overview of services](../../-%20Attachments/AWS/AWS%20choosing%20a%20service.png)
+![Similarities between AWS and traditional IT systems](../../-%20Attachments/AWS/Comparison%20of%20normal%20and%20AWS%20infrastructure.png)
 Virtual machines
 ---
 
