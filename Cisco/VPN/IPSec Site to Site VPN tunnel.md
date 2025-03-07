@@ -22,10 +22,17 @@ Prerequisites
 Sources
 ---
 https://www.youtube.com/watch?v=C_B9k0l6kEs
+https://www.youtube.com/watch?v=68Raa0FWNkg
 Netacad CCNA module 8
 
 Configuration
 ---
+
+
+
+
+
+
 ```
 crypto isakmp policy 1
 encryption aes

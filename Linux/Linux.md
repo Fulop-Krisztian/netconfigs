@@ -66,5 +66,7 @@ Other
 ---
 [Compression](-%20Configurations/Compression.md)
 
+[Find](-%20Commands/Find.md)
+
 
 
