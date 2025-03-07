@@ -39,6 +39,8 @@ sudo efibootmgr -c -L "EndeavourOS" -l '\EFI\endeavouros\grubx64.efi'
 
 You can remake the grub config with this command:
 
+**For Arch and derivatives:**
+
 ```bash
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
