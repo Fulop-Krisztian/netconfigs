@@ -17,7 +17,7 @@
 ```
 
 Good site that I stole:
-- [Penguin wiki](wiki.penguin.hu)
+- [Penguin wiki](https://wiki.penguin.hu)
 
 
 A repository containing all sorts of configs for all sorts of network and server related things
