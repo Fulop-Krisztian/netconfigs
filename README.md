@@ -16,6 +16,10 @@
                                                                                      "Y8bbdP"              
 ```
 
+Good site that I stole:
+- [Penguin wiki](wiki.penguin.hu)
+
+
 A repository containing all sorts of configs for all sorts of network and server related things
 
 A **minimal working configuration** is usually included with the documents.
