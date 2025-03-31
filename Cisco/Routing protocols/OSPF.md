@@ -37,8 +37,9 @@ network <ip> <subnet> area <area id>
 ```
 
 ! Auth:
-ip ospf authentication message-digest
-interface <interface> message-digest-key 1 md5 <password>
+interface <interface> 
+	ip ospf authentication message-digest
+	ip ospf message-digest-key 1 md5 <password>
 
 ```
 
