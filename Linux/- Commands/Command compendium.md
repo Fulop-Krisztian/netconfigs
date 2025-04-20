@@ -14,7 +14,7 @@ With this command you can check how many failed authentication attempts there we
 journalctl --no-pager -xu ssh.service | grep 'authentication failure' | wc -l
 ```
 Output of running the command on my exposed system: (~77 days of data, with some skips in uptime on a dynamic residential IP), resulting in a fail count of 534056, or half a million failed logins. This is about 7000 login tries each day, or 290 each hour.
-![Public SSH command output.png](../-%20Attachments/Public%20SSH%20command%20output.png)
+![Public SSH command output.png](../../-%20Attachments/Public%20SSH%20command%20output.png)
 
 
 Resilient disk image/copy over SSH
@@ -33,7 +33,7 @@ You could also [compress it with ZSTD](-%20Configurations/Compression.md#ZSTD) b
 ```bash
 # This uses a middling compression ratio, good for Raspberry Pis (tested on 4B, higher models could handle higher levlels efficiently). See the linked compression docuemnt for other options
 
-sudo dd conv=noerror,sync if=/dev/<disk> bs=4M | zstd -4 -T0 | ssh user@<your-pc-ip> "dd of=<path_to_image>.img"
+sudo dd conv=noerror,sync if=/dev/<disk> bs=4M | zstd -4 -T0 | ssh user@<your-pc-ip> "dd of=<path_to_image>.img.zstd"
 ```
 
 [Testing on a Raspberry Pi 4](-%20Scripts/Raspberry%20Pi%20disk%20backup%20speed%20test.md), copying over a gigabit LAN, with different compression ratios:
@@ -41,7 +41,7 @@ sudo dd conv=noerror,sync if=/dev/<disk> bs=4M | zstd -4 -T0 | ssh user@<your-pc
 > [!IMPORTANT]  
 > Observed speed is measured from the perspective of the sending `dd` command, so it takes into account that compressed data is worth more. 
 > 
-> It does not, however, represent the actual data transferred over the network
+> It does not, however, represent the actual data transferred over the network (which should be lower than this due to compression)
 
 Tests ran for around 120 seconds each
 
@@ -54,11 +54,13 @@ Tests ran for around 120 seconds each
 | 5                        | 18.7 MB/s                    |
 
 
-Or on the receiving machine (in case the transmitter's CPU is slow):
+You can also compress on the receiving machine (in case the transmitter's CPU is slow):
 ```bash
 # This uses a an extreme and slow compression ratio, assuming a strong recieving server. See the linked compression docuemnt for other options
 
-sudo dd conv=noerror,sync if=/dev/<disk> bs=4M | ssh user@<your-pc-ip> "dd of=<path_to_image>.img | zstd --ultra -22 --long=31 -T0 -v > <path_to_image>.img.zst"
+sudo dd conv=noerror,sync if=/dev/<disk> bs=4M | \
+ssh user@<your-pc-ip> "zstd --ultra -22 --long=31 -T0 -v -o <path_to_image>.img.zst"
+
 ```
 
 
@@ -86,7 +88,7 @@ In this guide we'll use a teminal utility called **`minicom`** for the serial te
 	minicom
 	```
 	If you don't know what to set, you should usually set: 
-	- Baud rate to `9600` or `115200`
+	- Baud rate to `9600` (most common by far) or `115200`
 	- Data bits to `8`
 	- Stop bits to `1`
 	- Parity to `none`

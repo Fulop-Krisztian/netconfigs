@@ -20,6 +20,7 @@ Sources
 ---
 - [Ansible 101: For the Windows SysAdmin by Josh King](https://www.youtube.com/watch?v=SqO2HkKep90)
 - [Network Programmability and Automation, 2nd Edition](https://www.oreilly.com/library/view/network-programmability-and/9781098110826/)
+- https://github.com/Horribili-kft/Ansible
 - Generative AI
 
 Configuration

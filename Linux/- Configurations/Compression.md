@@ -39,7 +39,7 @@ zstd -c -T0 --ultra --long -20 <input> > <output>
 - `-20`: Use level 20 for compression. Levels go from -7 to 22, don't ask why. -7 is fastest, 22 is best compression.
 
 > [!NOTE]  
-> You can also use it (along with other compression algorithms, but this is the most suitable for the job, to the point that even HTTP uses it) to compress network traffic on the fly, before transmission. [Compression over SSH](../Command%20compendium.md#Compression) when using `dd` over SSH is one method of using this.
+> You can also use it (along with other compression algorithms, but this is the most suitable for the job, to the point that even HTTP uses it) to compress network traffic on the fly, before transmission. [Compression over SSH](../-%20Commands/Command%20compendium.md#Compression) when using `dd` over SSH is one method of using this.
 
 Depending on the network, the total throughput could end up higher in the end than if you were to just send it without compression, even with the compression overhead for the server.
 

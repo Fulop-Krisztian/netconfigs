@@ -61,7 +61,7 @@ Configuration
 
 ### nmcli
 
-NetworkManager basics: [IP config](IP%20config.md)
+NetworkManager basics: [NetworkManager](NetworkManager.md)
 > [!NOTE]  
 > Create the bond interface. We will add the child interfaces later.
 

@@ -4,6 +4,7 @@ tags: #linux #windows  #desktop #fix
 Terminology, general knowledge
 ---
 - Sometimes you might get a dirtly label on your NTFS partitions in Linux, and depending on your [fstab](../-%20Configurations/Auto%20mount%20with%20fstab.md) configuration, you might fail to boot
+- You should run [CHKDSK](../../Windows/CHKDSK.md) periodically if you use the NTFS partition in Linux regularly (Like using it as a C drive in Wine)
 
 Configuration
 ---

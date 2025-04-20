@@ -7,9 +7,17 @@ This is an overview of the Linux knowledge base in netconfigs
 Netork configuration
 ---
 #### Basic interface configuration
-[IP config](Network%20interface%20configurations/IP%20config.md)
+[NetworkManager](Network%20interface%20configurations/NetworkManager.md)
+
+[Debian](Network%20interface%20configurations/Debian.md)
+
+#### More advanced configurations
 
 [Bonding](Network%20interface%20configurations/Bonding.md)
+
+[[Teaming]]
+
+
 
 [Enable wake on lan](Network%20interface%20configurations/Enable%20wake%20on%20lan.md)
 
@@ -21,17 +29,20 @@ Fixes
 
 Installation guides
 ---
+
 [Alpine postinstall configurations for a fast booting system](Install%20guides/Alpine%20postinstall%20Quickalpine.md)
 
 Virtualization
 ---
+
 [Proxmox](Proxmox/Proxmox.md)
 
 Automation
 ---
+
 [Ansible](Automation/Ansible.md)
 
-Configurations
+Other configurations
 ---
 
 [fstab: automounting filesystems](-%20Configurations/Auto%20mount%20with%20fstab.md)
@@ -62,7 +73,7 @@ Other
 
 
 
-[Useful commands](Command%20compendium.md)
+[Useful commands](-%20Commands/Command%20compendium.md)
 ---
 [Compression](-%20Configurations/Compression.md)
 

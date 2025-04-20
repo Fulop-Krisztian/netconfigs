@@ -15,7 +15,7 @@ tags: #basic #router #switch #firmware #cisco
 #### Serial transfer
 - In some cases, like when recovering on older switches, you may need a serial connection along with a program capable of XMODEM file transfer over serial.
 	- For Windows I recommend [TeraTerm](https://teratermproject.github.io/index-en.html)
-	- For Linux I recommend [CuteCom](https://cutecom.sourceforge.net/) for GUI, or [minicom](https://www.man7.org/linux/man-pages/man1/minicom.1.html) and [lrzsz](https://ohse.de/uwe/software/lrzsz.html) package for a terminal utility. [Linux terminal serial connections](../../Linux/Command%20compendium.md#Serial%20connections)
+	- For Linux I recommend [CuteCom](https://cutecom.sourceforge.net/) for GUI, or [minicom](https://www.man7.org/linux/man-pages/man1/minicom.1.html) and [lrzsz](https://ohse.de/uwe/software/lrzsz.html) package for a terminal utility. [Linux terminal serial connections](../../Linux/-%20Commands/Command%20compendium.md#Serial%20connections)
 
 > [!CAUTION]  
 > I advise against using **ExtraPutty**, as it doesn't consistently detect transmission errors, and could waste a lot of your time by apparently transferring a file, but not actually transferring it.
