@@ -7,7 +7,7 @@ Terminology, general knowledge
 
 Prerequisites
 ---
-- Router capable of IPv6
+- Router/MLS capable of IPv6
 
 Sources
 ---
@@ -15,6 +15,8 @@ Sources
 
 Configuration
 ---
+
+#### Router
 
 > [!NOTE]  
 > First you have to enable IPv6 on the router. It is off by default.
