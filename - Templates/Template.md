@@ -1,6 +1,7 @@
-# {{Title}}
-
+---
+title: {{Title}}
 tags:
+---
 
 
 Terminology, general knowledge
