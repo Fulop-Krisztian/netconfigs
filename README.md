@@ -3,6 +3,10 @@
 - [Windows](Windows/Windows.md)
 - [Cloud](Cloud/Cloud.md)
 
+External links:
+- [Hosted version of this Wiki](https://krissssz.ddns.net/wiki/Linux/)
+- [Penguin wiki](https://wiki.penguin.hu) (good site that I stole)
+
 ```
                                                                          ad88  88                          
                            ,d                                           d8"    ""                          
@@ -15,10 +19,6 @@
                                                                                     aa,    ,88             
                                                                                      "Y8bbdP"              
 ```
-
-Good site that I stole:
-- [Penguin wiki](https://wiki.penguin.hu)
-
 
 A repository containing all sorts of configs for all sorts of network and server related things
 
