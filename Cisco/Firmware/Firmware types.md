@@ -24,8 +24,8 @@ For example:  **`C3900-universalk9-mz.SPA.151-4.M1.bin`**
 
 Platforms refer to the physical hardware. Usually only direct matches are compatible, different versions (Like c3550 and c3550x) of the same hardware usually don't work.
 
-| **Platform Identifier**  | **Device/Hardware**                                  |
-|--------------------------|------------------------------------------------------|
+| **Platform Identifier**   | **Device/Hardware**                                  |
+|---------------------------|------------------------------------------------------|
 | `C1900`                   | Cisco 1900 Series Routers                            |
 | `C2900`                   | Cisco 2900 Series Routers                            |
 | `C3900`                   | Cisco 3900 Series Routers                            |
