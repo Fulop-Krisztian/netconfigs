@@ -1,5 +1,5 @@
 # Fixing bad NTFS partitions in Windows
-created: 2025-02-27 19:33
+
 tags: #windows #desktop #fix
 Terminology, general knowledge
 ---

@@ -1,5 +1,5 @@
 # [Massencode](https://github.com/Fulop-Krisztian/massencode)
-created: 2025-03-01 14:40
+
 tags: #linux #desktop #automation 
 
 This script allows for the compression of video files using both GPU acceleration (currently only via AMD VAAPI) and CPU encoding **concurrently**. It maintains the original directory structure and filenames in the output directory.

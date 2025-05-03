@@ -1,5 +1,5 @@
 # Auto-WOL
-created: 2025-02-27 18:45
+
 tags: #script #automation #ipv4 
 
 This is a custom (systemd) daemon that in short wakes up Krissssz-PC when my phone connects to the network during a specific time period of the day. No cron is used, because it would be too hard to configure cron to my liking.

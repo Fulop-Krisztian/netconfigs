@@ -1,5 +1,5 @@
 # An overview of LDAP and its concepts 
-created: 2025-03-07 08:42
+
 tags: #linux #windows #aaa 
 
 Sources

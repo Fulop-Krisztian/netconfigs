@@ -1,5 +1,5 @@
 # Windows Compatibility
-created: 2025-02-27 19:50
+
 tags: #linux #windows #desktop #fix
 
 

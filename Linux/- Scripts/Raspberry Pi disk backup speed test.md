@@ -1,5 +1,5 @@
 # Disk backup with ZSTD over network on Raspberry PI test
-created: 2025-03-01 13:05
+
 tags: #linux #automation #script #todo 
 Terminology, general knowledge
 ---

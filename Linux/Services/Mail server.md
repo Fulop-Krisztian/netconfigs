@@ -1,5 +1,5 @@
 # Mail server with AD authentication
-created: 2025-04-05 13:11
+
 tags: #linux #windows #ldap #aaa 
 Terminology, general knowledge
 ---

@@ -1,6 +1,6 @@
 
 # Auto mount with fstab
-created: 2025-02-27 18:29
+
 tags: #linux #etc #desktop #todo
 Terminology, general knowledge
 ---

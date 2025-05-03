@@ -1,5 +1,5 @@
 # Find
-created: 2025-03-01 23:36
+
 tags: #linux #basic #
 Terminology, general knowledge
 ---

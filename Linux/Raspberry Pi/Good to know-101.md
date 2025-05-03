@@ -1,5 +1,5 @@
 # Good to know-101
-created: 2025-03-01 14:49
+
 tags: #linux #firmware
 
 

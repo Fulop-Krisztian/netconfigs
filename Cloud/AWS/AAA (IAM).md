@@ -1,5 +1,5 @@
 # AWS Identity and Access Management
-created: 2025-03-06 08:18
+
 tags: #cloud #aaa #aws #basic 
 Terminology, general knowledge
 ---

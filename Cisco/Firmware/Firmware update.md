@@ -1,5 +1,5 @@
 # Firmware update
-created: 2025-02-27 14:25
+
 tags: #basic #router #switch #firmware #cisco 
 
 ## Preparation

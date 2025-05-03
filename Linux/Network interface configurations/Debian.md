@@ -1,5 +1,5 @@
 # Debian (Networking, NetworkConfiguration)
-created: 2025-04-20 12:58
+
 tags: #ipv6 #ipv4 #basic #linux #
 Terminology, general knowledge
 ---

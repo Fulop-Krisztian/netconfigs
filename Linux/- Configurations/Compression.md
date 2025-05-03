@@ -1,5 +1,5 @@
 # Compression
-created: 2025-03-01 10:22
+
 tags: #linux #desktop #etc #basic 
 Terminology, general knowledge
 ---

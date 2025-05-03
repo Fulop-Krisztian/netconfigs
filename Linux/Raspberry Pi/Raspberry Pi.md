@@ -1,4 +1,4 @@
-created: 2025-03-01 14:48
+
 tags: #linux #overview #firmware #
 
 IMPORTANT: Display output is turned through here off here: `sudo raspi-config`

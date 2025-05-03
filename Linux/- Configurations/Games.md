@@ -1,5 +1,5 @@
 # Configurations for gaming on linux
-created: 2025-02-27 18:51
+
 tags: #linux #desktop #fix #todo 
 Terminology, general knowledge
 ---

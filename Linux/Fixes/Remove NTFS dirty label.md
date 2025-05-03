@@ -1,5 +1,5 @@
 # Remove NTFS dirty label
-created: 2025-02-27 18:41
+
 tags: #linux #windows  #desktop #fix
 Terminology, general knowledge
 ---
