@@ -1,6 +1,11 @@
 ---
-title: Cisco firmware 
-tags: #cisco #switch #router #basic #firmware
+title: Cisco firmware
+tags:
+  - cisco
+  - switch
+  - router
+  - basic
+  - firmware
 ---
 References
 ---
