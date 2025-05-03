@@ -21,7 +21,7 @@ Environment variables:
 These environment variables can optimize your gaming experience, or may be a requirement to launch the game at all.
 ### Fixes
 
-#### Steamworks fix / Online-fix.me fix / custom DLL
+#### Online-fix.me fix
 
 Online-fix.me cracks use custom dlls, which wine ignores by default. To override this ignore behavior, use the following environment variable:
 
