@@ -2,6 +2,7 @@
 
 tags: #script #automation #ipv4 
 
+
 This is a custom (systemd) daemon that in short wakes up Krissssz-PC when my phone connects to the network during a specific time period of the day. No cron is used, because it would be too hard to configure cron to my liking.
 
 GPT helped a lot, it’s 50/50 human/AI:

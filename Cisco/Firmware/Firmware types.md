@@ -2,6 +2,7 @@
 
 tags: #cisco #switch #router #basic #firmware
 
+
 References
 ---
 [Firmware update](Firmware%20update.md)

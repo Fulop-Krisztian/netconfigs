@@ -1,5 +1,6 @@
 
-tags: #linux #overview #firmware #
+tags: #linux #overview #firmware
+
 
 IMPORTANT: Display output is turned through here off here: `sudo raspi-config`
 

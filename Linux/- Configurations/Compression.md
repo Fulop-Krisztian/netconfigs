@@ -1,6 +1,8 @@
 # Compression
 
-tags: #linux #desktop #etc #basic 
+tags: #linux #desktop #etc #basic
+
+
 Terminology, general knowledge
 ---
 - Compression takes a blob of data, and makes it a smaller blob of data

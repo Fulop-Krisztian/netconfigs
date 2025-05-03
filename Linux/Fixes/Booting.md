@@ -2,6 +2,7 @@
 
 tags: #linux #basic #etc #desktop 
 
+
 Common issues that may arise when trying to boot, such as the boot entry not being present in BIOS.
 
 ## [NTFS dirty label preventing boot](Remove%20NTFS%20dirty%20label.md#Alternatives)

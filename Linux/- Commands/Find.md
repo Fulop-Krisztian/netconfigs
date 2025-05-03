@@ -1,6 +1,8 @@
 # Find
 
-tags: #linux #basic #
+tags: #linux #basic
+
+
 Terminology, general knowledge
 ---
 

@@ -1,6 +1,8 @@
 # Remove NTFS dirty label
 
 tags: #linux #windows  #desktop #fix
+
+
 Terminology, general knowledge
 ---
 - Sometimes you might get a dirtly label on your NTFS partitions in Linux, and depending on your [fstab](../-%20Configurations/Auto%20mount%20with%20fstab.md) configuration, you might fail to boot

@@ -2,6 +2,8 @@
 # Auto mount with fstab
 
 tags: #linux #etc #desktop #todo
+
+
 Terminology, general knowledge
 ---
 

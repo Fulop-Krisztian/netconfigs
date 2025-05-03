@@ -1,6 +1,8 @@
 # Fixing bad NTFS partitions in Windows
 
 tags: #windows #desktop #fix
+
+
 Terminology, general knowledge
 ---
 
