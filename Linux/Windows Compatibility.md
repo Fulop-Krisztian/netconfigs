@@ -1,8 +1,11 @@
-# Windows Compatibility
-
-tags: #linux #windows #desktop #fix
-
-
+---
+title: Windows Compatibility
+tags:
+  - linux
+  - windows
+  - desktop
+  - fix
+---
 > [!info] Dual boot with Windows - ArchWiki  
 >  
 > [https://wiki.archlinux.org/title/Dual_boot_with_Windows](https://wiki.archlinux.org/title/Dual_boot_with_Windows)  

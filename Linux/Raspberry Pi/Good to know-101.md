@@ -1,8 +1,9 @@
-# Good to know-101
-
-tags: #linux #firmware
-
-
+---
+title: Good to know-101
+tags:
+  - linux
+  - firmware
+---
 Prerequisites
 ---
 - You have a Raspberry PI

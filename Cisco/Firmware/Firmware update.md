@@ -1,8 +1,12 @@
-# Firmware update
-
-tags: #basic #router #switch #firmware #cisco 
-
-
+---
+title: Cisco firmware update
+tags:
+  - basic
+  - router
+  - switch
+  - firmware
+  - cisco
+---
 ## Preparation
 
 - You should already have an image you want to install, you can find some in the [Sources](#Sources) section. You should probably find out [what you are installing](Firmware%20types.md) 

@@ -1,8 +1,11 @@
-# Mail server with AD authentication
-
-tags: #linux #windows #ldap #aaa 
-
-
+---
+title: Mail server with AD authentication
+tags:
+  - linux
+  - windows
+  - ldap
+  - aaa
+---
 Terminology, general knowledge
 ---
 

@@ -1,8 +1,9 @@
-# Find
-
-tags: #linux #basic
-
-
+---
+title: Find
+tags:
+  - linux
+  - basic
+---
 Terminology, general knowledge
 ---
 

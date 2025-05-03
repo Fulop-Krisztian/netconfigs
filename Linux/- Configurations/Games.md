@@ -1,8 +1,11 @@
-# Configurations for gaming on linux
-
-tags: #linux #desktop #fix #todo 
-
-
+---
+title: Configurations for gaming on linux
+tags:
+  - linux
+  - desktop
+  - fix
+  - todo
+---
 Terminology, general knowledge
 ---
 - Proton is used for Windows games. It's very prevalent so you should get familiar with it.

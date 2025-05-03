@@ -1,8 +1,9 @@
-# Windows configuration for automation with Ansible
-
-tags: #automation #ansible
-
-
+---
+title: Windows configuration for automation with Ansible
+tags:
+  - automation
+  - ansible
+---
 Terminology, general knowledge
 ---
 - Ansible uses WinRM with Windows (Other methods exist, but we will only cover this one), as opposed to the usual SSH

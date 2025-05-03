@@ -1,8 +1,11 @@
-# Debian (Networking, NetworkConfiguration)
-
-tags: #ipv6 #ipv4 #basic #linux
-
-
+---
+title: Debian (Networking, NetworkConfiguration)
+tags:
+  - ipv6
+  - ipv4
+  - basic
+  - linux
+---
 Terminology, general knowledge
 ---
 

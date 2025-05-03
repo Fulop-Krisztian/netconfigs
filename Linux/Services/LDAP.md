@@ -1,8 +1,10 @@
-# An overview of LDAP and its concepts 
-
-tags: #linux #windows #aaa
-
-
+---
+title: An overview of LDAP and its concepts 
+tags:
+  - linux
+  - windows
+  - aaa
+---
 Sources
 ---
 [This is pretty much required reading for understanding LDAP on anything more than a superficial level](https://www.zytrax.com/books/ldap/)

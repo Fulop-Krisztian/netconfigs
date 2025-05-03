@@ -1,8 +1,11 @@
-# Disk backup with ZSTD over network on Raspberry PI test
-
-tags: #linux #automation #script #todo 
-
-
+---
+title: Disk backup with ZSTD over network on Raspberry PI test
+tags:
+  - linux
+  - automation
+  - script
+  - todo
+---
 Terminology, general knowledge
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Cisco firmware
+title: Cisco firmware types
 tags:
   - cisco
   - switch

@@ -1,10 +1,10 @@
-# Linux overview
-tags: #linux #overview 
-
-
+---
+title: Linux overview
+tags:
+  - linux
+  - overview
+---
 This is an overview of the Linux knowledge base in netconfigs
-
-
 Netork configuration
 ---
 #### Basic interface configuration

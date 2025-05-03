@@ -1,7 +1,7 @@
-# Active Directory
-
-tags:
-
+---
+title: Active Directory
+tags: []
+---
 
 Terminology, general knowledge
 ---
