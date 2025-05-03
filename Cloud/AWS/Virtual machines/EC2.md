@@ -1,5 +1,5 @@
 ---
-title: AWS Elastic Compute 2: The virtual machines
+title: AWS Elastic Compute 2 The virtual machines
 tags:
   - cloud
   - virtualization
