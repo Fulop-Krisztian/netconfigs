@@ -1,10 +1,13 @@
+---
+title: netconfigs
+---
 - [Cisco](Cisco/Cisco.md)
 - [Linux](Linux/Linux.md) (Mostly server oriented OSs, like Debian, RHEL, Alpine and derivatives)
 - [Windows](Windows/Windows.md)
 - [Cloud](Cloud/Cloud.md)
 
 External links:
-- [Hosted version of this Wiki](https://krissssz.ddns.net/wiki)
+- [Hosted version of this Wiki](https://krissssz.ddns.net/wiki/Linux/)
 - [Penguin wiki](https://wiki.penguin.hu) (good site that I stole)
 
 ```
