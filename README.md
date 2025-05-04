@@ -1,6 +1,3 @@
----
-title: netconfigs
----
 - [Cisco](Cisco/Cisco.md)
 - [Linux](Linux/Linux.md) (Mostly server oriented OSs, like Debian, RHEL, Alpine and derivatives)
 - [Windows](Windows/Windows.md)
