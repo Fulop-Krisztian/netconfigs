@@ -1,5 +1,5 @@
 ---
-title: Daemonizing things with systemd services
+title: Systemd overview
 tags:
   - linux
   - overview
