@@ -1,24 +1,34 @@
-# Alpine postinstall configurations
+---
+title: An alpine postinstall script (and guide) for fast booting
+tags:
+  - linux
+  - overview
+  - virtualization
+  - automation
+  - script
+---
+
 These are configurations I use after installing Alpine Linux (tested on a sys disk install)
 
 Useful links
 ---
 
-[](https://wiki.alpinelinux.org/wiki/Installation#Post-Installation)
+[Alpine wiki postinstall](https://wiki.alpinelinux.org/wiki/Installation#Post-Installation)
 
 [Alpine repos online search](https://pkgs.alpinelinux.org/packages)
 
 Configurations to run after `setup-alpine`
 ---
+> [!NOTE]  
+> First, enable community repos
 
-First, enable community repos
 ```bash
 nano /etc/apk/repositories
 # Remove the comment from in front of the community repo
 ```
 
+Basic package installation
 
-basic packages
 ```bash
 apk update
 apk upgrade
@@ -42,7 +52,7 @@ d. These will usually be in the /etc directory. Whenever apk wants to install a 
 ```bash 
 # You will probably use this sooner or later, might as well add it now.
 apk add git
-# Blasphemy (It really is useful though)
+# Blasphemy (It really is useful though if you intend use it)
 apk add mc
 # Apache2 for testing. You should enable this afterwards with rc-service add apache2 default/async
 apk add apache2

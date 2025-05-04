@@ -18,20 +18,10 @@ Netork configuration
 
 [[Teaming]]
 
-
-
 [Enable wake on lan](Network%20interface%20configurations/Enable%20wake%20on%20lan.md)
 
 
-Fixes
----
-[Common booting issues](Fixes/Booting.md)
 
-
-Installation guides
----
-
-[Alpine postinstall configurations for a fast booting system](Install%20guides/Alpine%20postinstall%20Quickalpine.md)
 
 Virtualization
 ---
@@ -43,6 +33,7 @@ Automation
 
 [Ansible](Automation/Ansible.md)
 
+
 Other configurations
 ---
 
@@ -53,17 +44,31 @@ Other configurations
 [Scripts](-%20Scripts/Scripts.md)
 ---
 
+Services
+---
+
+#### Management
+
+[Daemonizing things with Systemd](Services/systemd/Systemd%20service.md)
+
+#### Specific services
+
+[Mail server](Services/Mail%20server.md)
+
+[Rsyslog](Monitoring/Rsyslog.md)
+
+[PAM](AAA/PAM.md)
 Other
 ---
 
 
-[PAM](AAA/PAM.md)
+[Raspberry Pi](Raspberry%20Pi/Raspberry%20Pi.md)
 
-[Rsyslog](Monitoring/Rsyslog.md)
+#### Installation guides
 
 [LFS Project](LFS%20Project/LFS%20Project.md)
 
-[Raspberry Pi](Raspberry%20Pi/Raspberry%20Pi.md)
+[Alpine postinstall configurations for a fast booting system](Install%20guides/Alpine%20postinstall%20Quickalpine.md)
 
 
 #### Linux - Windows (AD) integration
@@ -82,3 +87,6 @@ Other
 
 
 
+Fixes
+---
+[Common booting issues](Fixes/Booting.md)
