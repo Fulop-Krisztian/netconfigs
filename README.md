@@ -7,7 +7,7 @@ title: netconfigs
 - [Cloud](Cloud/Cloud.md)
 
 External links:
-- [Hosted version of this Wiki](https://krissssz.ddns.net/wiki/Linux/)
+- [Hosted version of this Wiki](https://krissssz.ddns.net/wiki)
 - [Penguin wiki](https://wiki.penguin.hu) (good site that I stole)
 
 ```
