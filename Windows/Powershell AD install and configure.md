@@ -1,10 +1,15 @@
-# Active directory installation with Powershell
-
+---
+title: Active directory installation with Powershell
+tags:
+  - automation
+  - windows
+  - script
+---
 Terminology, general knowledge
 ---
  - These scripts are mostly meant for either: 
 	- Quickly setting up a lab environment.
-	- Taking snippets from the ad_env_setup to create your own scripts.
+	- Taking snippets from the [ad_env_setup.ps1](#[AD%20environment%20setup](Scripts/ad_env_setup.ps1)) to create your own scripts.
 
 Prerequisites
 ---
@@ -22,9 +27,9 @@ The script has a verbose description, but here's an overview:
 > [!NOTE]
 > This script installs active directory with arguments you give it. If you give no arguments, it installs with these default options:
 > 
-> Domain name: contoso.com
-> AD Admin password: Password123
-> Netbios name: CONTOSO
+> - Domain name: contoso.com
+> - AD Admin password: Password123
+> - Netbios name: CONTOSO
 
 #### Running examples:
 
