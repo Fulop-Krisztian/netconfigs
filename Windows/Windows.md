@@ -29,4 +29,4 @@ Other
 
 [Linux - Windows dual boot Compatibility](../Linux/Windows%20Compatibility.md)
 
-[Activate Windows without a license](Registry%20activation%202.1.md)
+[Activate Windows without a license](Registry%20activation%202.2.md)

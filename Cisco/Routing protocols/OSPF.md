@@ -1,6 +1,12 @@
-# OSPF configuration on Cisco devices
-#router #dynamicrouting #ospf #cisco #ipv4
-
+---
+title: OSPF configuration on Cisco devices
+tags:
+  - router
+  - dynamicrouting
+  - ospf
+  - cisco
+  - ipv4
+---
 For OSPFv3, see [OSPFv3](OSPFv3.md)
 
 Terminology, general knowledge

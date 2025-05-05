@@ -1,6 +1,12 @@
-# OSPFv3 confiugration on Cisco devices
-#router #dynamicrouting #ospf #cisco #ipv6
-
+---
+title: OSPFv3 confiugration on Cisco devices
+tags:
+  - router
+  - dynamicrouting
+  - ospf
+  - cisco
+  - ipv6
+---
 For regular OSPF, see [OSPF](OSPF.md)
 Terminology, general knowledge
 ---

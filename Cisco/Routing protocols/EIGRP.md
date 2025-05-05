@@ -1,5 +1,12 @@
-# EIGRP configuration on Cisco devices
-#router #dynamicrouting #eigrp #cisco #ipv4 
+---
+title: EIGRP configuration on Cisco devices
+tags:
+  - router
+  - dynamicrouting
+  - eigrp
+  - cisco
+  - ipv4
+---
 Terminology, general knowledge
 ---
 - EIGRP is supposedly the best interior gateway protocol
