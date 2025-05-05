@@ -1,7 +1,13 @@
-# Redistributing routes between protocols
-
+---
+title: Redistributing routes between protocols
+tags:
+  - cisco
+  - dynamicrouting
+  - router
+---
 Terminology, general knowledge
 ---
+- In terms of configuration, the important things is what you redistribute ***INTO***. It doesn't matter much what you redistribute from
 - You can use multiple different kinds of protocols in a network, and redistribute between them to make it work
 
 References
@@ -10,6 +16,7 @@ References
 [OSPFv3](OSPFv3.md)
 [EIGRP](EIGRP.md)
 [BGP](BGP.md)
+[RIP](RIP.md)
 
 Prerequisites
 ---
@@ -27,13 +34,12 @@ router <protocol> <id>
 redistribute <redistribute_source>
 
 ! Other things may be required based on what you redistribute from or to.
-
 ```
 
 >[!WARNING]
 > You need to give the PID of the protocol you source from, for example:
 > `redistribute ospf 1 subnets`
-> Notice the **1** after `ospf`
+> Notice the **`1`** after `ospf`
 
 #### Redistributing into...
 ##### OSFP:
@@ -48,7 +54,8 @@ redistribute <redistribute_source>
 > For redisting to EIGRP, you need a bunch of numbers at the end because EIGRP uses those to do its metric calculation.
 > `redistribute <protocol> metric 10000 100 255 1 1500`
 
-##### RIP
+##### RIP:
+
 > [!NOTE]  \> RIP
 > For redisting to RIP, you need to set the metric.
 > `redistribute <protocol> metric 1`
