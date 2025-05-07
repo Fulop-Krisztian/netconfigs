@@ -1,30 +1,39 @@
-# Basic configurations using nmcli
-
+---
+title: Basic configurations using nmcli
+tags:
+  - linux
+  - basic
+  - etc
+  - ipv4
+  - ipv6
+---
+> [!TIP]
+> Use **`nmtui`** if you can, it makes configuration much faster and simpler
+> (You usually only configure interfaces once in a while anyways, so learning commands for small things is a waste of your time)
 
 Prerequisites
 ---
-- A working computer
-- Linux using NetworkManager
-- Superuser privileges
-
-
-**Use `nmtui` if you can, it makes configuration much faster and simpler**
+- Your system uses [NetworkManager](https://wiki.archlinux.org/title/NetworkManager)
+- Root privileges
 
 IPv6
 ---
-You should learn this eventually, or you will fall behind.
-
 ### Adding a static address
 
-IPv6 can have multiple addresses. You can add as many as you want to an interface like so:
+> [!NOTE]  
+> IPv6 can have multiple addresses. You can add as many as you want to an interface like so
 
 ```bash
-sudo nmcli con modify bond0 +ipv6.addresses "2a01:36d:600:692e::220/64"
+sudo nmcli con modify <connection_name> +ipv6.addresses "2a01:36d:600:692e::220/64"
 ```
+
+> [!CAUTION]  
+> The fact that IPv6 can have multiple addresses means that you can't that an address is automatically removed when configuring. 
+> 
+> Always check the resulting configuration from you commands, at least with the `ip address` command
 
 IPv4
 ---
-
 
 ### Static IP address
 ```bash
@@ -49,11 +58,12 @@ sudo nmcli con up <connection_name>
 ```
 
 ### DHCP
-```
+
+```bash
 sudo nmcli con modify <connection_name> ipv4.method auto
 ```
 
-```
+```bash
 # reload the interface
 sudo nmcli con up <connection_name>
 ```

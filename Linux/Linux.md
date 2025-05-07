@@ -4,8 +4,7 @@ tags:
   - linux
   - overview
 ---
-This is an overview of the Linux knowledge base in netconfigs
-Netork configuration
+Network configuration
 ---
 #### Basic interface configuration
 [NetworkManager](Network%20interface%20configurations/NetworkManager.md)
