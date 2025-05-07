@@ -60,17 +60,14 @@ Services
 [Apache/Apche2/httpd](Services/Webserver/Apache.md)
 
 #### Specific services
-
 [Mail server](Services/Mail%20server.md)
 
 [Rsyslog](Monitoring/Rsyslog.md)
 
 [PAM](AAA/PAM.md)
 
-
 Other
 ---
-
 [Raspberry Pi](Raspberry%20Pi/Raspberry%20Pi.md)
 
 #### Installation guides
