@@ -22,7 +22,7 @@ External links:
 
 A repository containing all sorts of configs for all sorts of network and server related things
 
-A **minimal working configuration** is usually included with the documents.
+A **minimal working configuration** is usually included with the documents (sometimes it's a more fleshed out example configuration).
 The rest of the document is a more descriptive, still trying to include important details and highlighting pitfalls.
 
 Feel free to use these configurations as your own, no attribution required (except when I'm not the author, but someone else), but it is appreciated.

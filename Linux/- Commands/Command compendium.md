@@ -6,7 +6,10 @@ Be careful about running them.
 
 Check failed SSH tries
 ---
-With this command you can check how many failed authentication attempts there were, trying to SSH into your system. If your port is exposed to the internet, you will get an insane number, since there's someone trying to SSH into your system pretty much every (few) second(s).
+With this command you can check how many failed authentication attempts there were from people/bots (mostly bots) trying to SSH into your system. 
+
+If your port is exposed to the internet, you will get an insane number, since there's someone trying to SSH into your system pretty much every (few) second(s).
+
 > [!NOTE]
 > It may take a few minutes to run this command if you have a lot of log SSH log entries
 
