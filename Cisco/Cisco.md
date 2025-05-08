@@ -1,7 +1,9 @@
-# Cisco overview
-
-This is an overview of the Cisco knowledge base in netconfigs
-
+---
+title: Cisco overview
+tags:
+  - cisco
+  - overview
+---
 Basics
 ---
 [IPv6](IPv6/IPv6.md)
