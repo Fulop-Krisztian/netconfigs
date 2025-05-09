@@ -1,4 +1,13 @@
-# HSRP Configuration on Cisco Devices
+---
+title: HSRP Configuration on Cisco Devices
+tags:
+  - cisco
+  - ipv4
+  - ipv6
+  - router
+  - vlan
+---
+
 
 Terminology, general knowledge
 ---
@@ -27,7 +36,8 @@ Configuration
 ```
 standby <group_number> ip <ip_address>
 ```
-With this you are pretty much done. Do this on two routers and it will work
+
+With this you are pretty much done. Do this on two routers and it will work.
 
 
 ### HSRP Priority
@@ -59,7 +69,7 @@ hsrp preempt (delay minimum <delay_time>)
 Minimum working config examples:
 ---
 
-Here is an example configuration where two routers (R1 and R2) are configured for HSRP with the IP address 192.168.1.100:
+Here is an example configuration where two routers (R1 and R2) are configured for HSRP with the virtual IP address of 192.168.1.100:
 
 ```
 R1:
