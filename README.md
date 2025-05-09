@@ -1,11 +1,11 @@
 - [Cisco](Cisco/Cisco.md)
-- [Linux](Linux/Linux.md) (Mostly server oriented OSs, like Debian, RHEL, Alpine and derivatives)
+- [Linux](Linux/Linux.md)
 - [Windows](Windows/Windows.md)
 - [Cloud](Cloud/Cloud.md)
 
 External links:
-- [Hosted version of this Wiki](https://krissssz.ddns.net/wiki)
-- [Penguin wiki](https://wiki.penguin.hu) (good site that I stole)
+- [Hosted version of this Wiki](https://krissssz.ddns.net/wiki) (Recommended, with really good search)
+- [Penguin wiki](https://wiki.penguin.hu) (Good site that I stole)
 
 ```
                                                                          ad88  88                          
