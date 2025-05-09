@@ -1,6 +1,9 @@
-# IPv6 configuration on Cisco routers
-#basic #ipv6 
-
+---
+title: IPv6 configuration on Cisco routers
+tags:
+  - basic
+  - ipv6
+---
 Terminology, general knowledge
 ---
 - It's got more features and mostly works differently from IPv4, it's not just a larger address space.

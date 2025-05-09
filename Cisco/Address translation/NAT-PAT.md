@@ -1,4 +1,11 @@
-# NAT and PAT (DNAT with overload) configuration on Cisco devices
+---
+title: NAT and PAT (DNAT with overload) configuration on Cisco devices
+tags:
+  - cisco
+  - router
+  - ipv4
+---
+
 
 Terminology, general knowledge
 ---
@@ -27,7 +34,7 @@ interface <outide_interface>
 ip nat outside
 ```
 
-### PAT to port (SOHO )
+### PAT to port (similar to SOHO)
 
 > [!NOTE]  
 > This is exactly what a SOHO router does that you may have at home: It translates all addresses from the inside interfaces, to the outside interface, using the outside interface's IP.
