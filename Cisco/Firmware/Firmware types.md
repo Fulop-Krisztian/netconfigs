@@ -55,17 +55,17 @@ The most common you might encounter are (with their hallmark features):
 
 A more complete table of features:
 
-| **Feature Set Identifier** | **Description**                                                                  |
-| -------------------------- | -------------------------------------------------------------------------------- |
-| `ipbase`                   | Basic IP routing features, including IPv4, IPv6 (not always), and basic QoS.     |
-| `ipservices`               | More advanced features, like IPv6 OSPF, HSRP, and other things                   |
-| `entservices`              | Enterprise services, adding Layer 3 routing protocols, MPLS, and QoS.            |
-| `advipservices`            | Advanced IP services including MPLS, IPsec, IPv6, VPN, and enhanced security.    |
-| `advsecurity`              | Advanced security services including VPNs, firewall, IPsec, and encryption.      |
-| `security`                 | Security features, including firewall, VPN, and encryption support.              |
-| `spservices`               | Service provider features such as MPLS and high-performance routing.             |
-| `universal`                | Universal image with all features, but features are activated based on licenses. |
-| `metroipaccess`            | Metro Ethernet routing features for Layer 2 and Layer 3 services.                |
+| **Feature Set Identifier** | **Description**                                                                                                                                       |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ipbase`                   | Basic IP routing features, including IPv4, IPv6 (not always), and basic QoS.                                                                          |
+| `ipservices`               | More advanced features, like [OSPFv3](../Routing%20protocols/OSPFv3.md), [HSRP](../Redundancy/HSRP.md), and other things                              |
+| `entservices`              | Enterprise services, adding Layer 3 routing protocols, MPLS, and QoS.                                                                                 |
+| `advipservices`            | Advanced IP services including MPLS, IPsec, [IPv6](../IPv6/IPv6.md), [VPN](../VPN/IPSec%20Site%20to%20Site%20VPN%20tunnel.md), and enhanced security. |
+| `advsecurity`              | Advanced security services including VPNs, firewall, IPsec, and encryption.                                                                           |
+| `security`                 | Security features, including firewall, VPN, and encryption support.                                                                                   |
+| `spservices`               | Service provider features such as MPLS and high-performance routing.                                                                                  |
+| `universal`                | Universal image with all features, but features are activated based on licenses.                                                                      |
+| `metroipaccess`            | Metro Ethernet routing features for Layer 2 and Layer 3 services.                                                                                     |
 
 ##### Affixes
 There are some standardized affixes that may be found on multiple feature sets, these include:
