@@ -2,6 +2,7 @@
 - [Linux](Linux/Linux.md)
 - [Windows](Windows/Windows.md)
 - [Cloud](Cloud/Cloud.md)
+- [Programming](Programming/Programming.md)
 
 External links:
 - [Hosted version of this Wiki](https://krissssz.ddns.net/wiki) (Recommended, with really good search)
@@ -20,7 +21,7 @@ External links:
                                                                                      "Y8bbdP"              
 ```
 
-A repository containing all sorts of configs for all sorts of network and server related things
+A repository containing all sorts of configs for all sorts of network and server related things.
 
 A **minimal working configuration** is usually included with the documents (sometimes it's a more fleshed out example configuration).
 The rest of the document is a more descriptive, still trying to include important details and highlighting pitfalls.

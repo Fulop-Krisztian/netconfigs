@@ -1,11 +1,11 @@
 ---
-title: {{Title}}
+title: Self hosted webarchive with Archivebox
 tags:
+  - linux
+  - archive
+  - webserver
 ---
-Terminology, general knowledge
----
-
-
+With 
 Prerequisites
 ---
 
