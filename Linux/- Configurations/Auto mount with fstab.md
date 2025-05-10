@@ -47,7 +47,7 @@ NAME FSTYPE FSVER LABEL UUID             FSAVAIL FSUSE% MOUNTPOINTS
 > [!NOTE]  
 > You will need the **UUID** and the **mountpoint**. Also you will need to mount it with settings appropriate for 
 
-Next input these into fstab. Depending on you
+Next input these into fstab. Depending on your partition choose from the [Minimum working config examples](#Minimum%20working%20config%20examples)
 
 ### Manually with genfstab
 
@@ -60,7 +60,7 @@ Next input these into fstab. Depending on you
 ###
 
 
-Minimum working config examples:
+Minimum working config examples
 ---
 NTFS partition
 ```fstab
