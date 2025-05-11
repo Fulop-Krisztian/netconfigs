@@ -38,7 +38,7 @@ Other configurations
 
 [fstab: automounting filesystems](-%20Configurations/Auto%20mount%20with%20fstab.md)
 
-[Configuring Linux for gaming](-%20Configurations/Games.md)
+[Configuring Linux for gaming](-%20Configurations/Gaming.md)
 
 [Scripts](-%20Scripts/Scripts.md)
 ---

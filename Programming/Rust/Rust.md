@@ -7,7 +7,7 @@ Resources
 ---
 #### Books
 
-[The Rust Programming Language](https://doc.rust-lang.org/stable/book/title-page.html) (The one you should really read)
+[The Rust  Programming Language](https://doc.rust-lang.org/stable/book/title-page.html) (The one you should really read)
 [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html) (A secondary book for additional reading)
 
 #### Videos

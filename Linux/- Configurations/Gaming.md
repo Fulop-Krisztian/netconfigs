@@ -5,6 +5,7 @@ tags:
   - desktop
   - fix
   - todo
+  - overview
 ---
 Terminology, general knowledge
 ---
@@ -20,6 +21,11 @@ Sources
 ---
 [Linux cracked games wiki, a lot of useful info here](https://www.reddit.com/r/LinuxCrackSupport/wiki/index/)  
 
+
+Gaming related things
+---
+
+[Gamemode for better game stability and performance](../Services/Other/GameMode.md)
 
 Environment variables:
 ---
