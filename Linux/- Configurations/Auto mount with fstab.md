@@ -63,8 +63,16 @@ Next input these into fstab. Depending on your partition choose from the [Minimu
 Minimum working config examples
 ---
 NTFS partition
+
+> [!WARNING]  
+> Make sure that the uid and the gid match the user you use.
+> (you can find out your uid and gid with the `id` command)
+
+> [!CAUTION]
+> We are using the `force` option
+
 ```fstab
-UUID=<UUID> <mount_path (eg. /mnt or /run/media/user/mount1)>   ntfs3 force,rw,nosuid,nodev,relatime,uid=1000,gid=1001,iocharset=utf8,windows_names,auto 0 0
+UUID=<UUID> <mount_path (eg. /mnt or /run/media/user/mount1)>   ntfs3 force,rw,nosuid,nodev,relatime,uid=1000,gid=1000,iocharset=utf8,windows_names,auto 0 0
 ```
 
 BTRFS partition

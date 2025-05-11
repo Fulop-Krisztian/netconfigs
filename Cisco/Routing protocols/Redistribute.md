@@ -44,19 +44,20 @@ redistribute <redistribute_source>
 #### Redistributing into...
 ##### OSFP:
 
-> [!NOTE]  \> OSPF
+> [!NOTE]
+> 
 > For redisting to OSPF, you need a `subnets` at the end of the command
 > `redistribute <protocol> subnets`
 
 ##### EIGRP:
 
-> [!NOTE]  \> EIGRP
+> [!NOTE]
 > For redisting to EIGRP, you need a bunch of numbers at the end because EIGRP uses those to do its metric calculation.
 > `redistribute <protocol> metric 10000 100 255 1 1500`
 
 ##### RIP:
 
-> [!NOTE]  \> RIP
+> [!NOTE] 
 > For redisting to RIP, you need to set the metric.
 > `redistribute <protocol> metric 1`
 
