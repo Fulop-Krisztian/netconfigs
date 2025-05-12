@@ -20,7 +20,7 @@ Output of running the command on my exposed system: (~77 days of data, with some
 ![Public SSH command output.png](../../-%20Attachments/Public%20SSH%20command%20output.png)
 
 
-Resilient disk image/copy over SSH
+Resilient disk image/copy/backup over SSH
 ---
 With this command you can image a whole disk with `dd` and output the file over SSH to a different machine. The `dd` command also has some other switches (`conv=noerror,sync`), which make it ignore errors by copying zeroes in place of unreadable data, keeping the alignment of the disk
 

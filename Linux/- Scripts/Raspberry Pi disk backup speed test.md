@@ -6,17 +6,9 @@ tags:
   - script
   - todo
 ---
-Terminology, general knowledge
+Reladted
 ---
-
-
-Prerequisites
----
-
-
-Sources
----
-
+[Resilient disk image/copy over SSH](../-%20Commands/Command%20compendium.md#Resilient%20disk%20image/copy%20over%20SSH)
 
 Code
 ---
