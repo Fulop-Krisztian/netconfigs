@@ -5,6 +5,7 @@ tags:
   - etc
   - desktop
   - todo
+  - basic
 ---
 Terminology, general knowledge
 ---
@@ -93,4 +94,20 @@ UUID=<UUID> <mount_path (eg. /mnt or /run/media/user/mount1)>   ntfs3 force,rw,n
 UUID=<UUID> <mount_path>  btrfs   subvol=<subvolume>,rw,nossd,compress-force=zstd:4,autodefrag,auto  0 0
 ```
 
+#### sshfs mount
 
+You need to set up passwordless [[ssh]] with pubkeys for this to work.
+
+```fstab
+<user>@<ip>:<path_on_remote_machine>	<mount_path> fuse.sshfs noauto,x-systemd.automount,_netdev,reconnect,identityfile=/home/<user>/.ssh/<ssh_pubkey>,allow_other,default_permissions,auto 0 0
+```
+
+#### Swap mount
+
+This is the simplest of all.
+
+```
+<swap_partition_path> none swap defaults 0 0
+```
+
+> The swap partition can also be a BTRFS subvolume
