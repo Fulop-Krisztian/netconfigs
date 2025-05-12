@@ -1,4 +1,4 @@
-![](-%20Attachments/netconfigs.svg)
+![netconfigs](-%20Attachments/netconfigs.svg)
 - [Cisco](Cisco/Cisco.md)
 - [Linux](Linux/Linux.md)
 - [Windows](Windows/Windows.md)

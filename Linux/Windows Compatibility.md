@@ -12,9 +12,9 @@ tags:
 
 ### 1. Disable Fast Startup and disable hibernation (can’t mount)
 
-In theory this should prevent Windows leaving dirty bits on your drive, in practice I still recommend looking at [alternatives in linux for circumventing this](Fixes/Remove%20NTFS%20dirty%20label.md#Alternatives)
+In theory this should prevent Windows leaving dirty bits on your drive. In practice I still recommend looking at [the alternative way to solve this issue](Fixes/Remove%20NTFS%20dirty%20label.md#Alternatives)
 
-In a windows (power)shell with administrator privileges:
+In a Windows PowerShell with administrator privileges:
 
 ```powershell
 powercfg /H off

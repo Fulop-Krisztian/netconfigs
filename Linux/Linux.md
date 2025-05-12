@@ -36,7 +36,7 @@ Automation
 Other configurations
 ---
 
-[fstab: automounting filesystems](-%20Configurations/Auto%20mount%20with%20fstab.md)
+[fstab: automounting filesystems](-%20Configurations/fstab.md)
 
 [Configuring Linux for gaming](-%20Configurations/Gaming.md)
 

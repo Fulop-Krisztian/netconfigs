@@ -8,7 +8,7 @@ tags:
 ---
 Terminology, general knowledge
 ---
-- Sometimes you might get a dirtly label on your NTFS partitions in Linux, and depending on your [fstab](../-%20Configurations/Auto%20mount%20with%20fstab.md) configuration, you might fail to boot
+- Sometimes you might get a dirtly label on your NTFS partitions in Linux, and depending on your [fstab](../-%20Configurations/fstab.md) configuration, you might fail to boot
 - You should run [CHKDSK](../../Windows/CHKDSK.md) periodically if you use the NTFS partition in Linux regularly (Like using it as a C drive in Wine)
 
 Configuration
@@ -24,7 +24,7 @@ ntfsfix -d /dev/<partition>
 
 Alternatives
 ---
-You might consider modifying your NTFS partitions' fstab so that they don't stop your system from booting by changing the numbers at the end of the entry to `0 0`, and adding the `force` option.
+You might consider modifying your NTFS partitions' [fstab](../-%20Configurations/fstab.md) entry so that they don't stop your system from booting by changing the numbers at the end of the entry to `0 0`, and adding the `force` option.
 
 For example:
 ```fstab
