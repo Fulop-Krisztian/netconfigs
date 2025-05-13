@@ -6,7 +6,7 @@
 - [Programming](Programming/Programming.md)
 
 External links:
-- [Hosted version of this Wiki](https://krissssz.ddns.net/wiki) (Recommended, with really good search)
+- [Hosted version of this Wiki](https://krissssz.ddns.net/wiki/) (Recommended, with really good search)
 - [Penguin wiki](https://wiki.penguin.hu) (Good site that I stole)
 
 A repository containing all sorts of configs for all sorts of network and server related things.
