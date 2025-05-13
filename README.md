@@ -1,4 +1,4 @@
-![netconfigs](-%20Attachments/netconfigs.svg)
+[![netconfigs](-%20Attachments/netconfigs.svg)](https://krissssz.ddns.net/wiki/)
 - [Cisco](Cisco/Cisco.md)
 - [Linux](Linux/Linux.md)
 - [Windows](Windows/Windows.md)
