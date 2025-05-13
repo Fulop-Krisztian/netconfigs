@@ -10,7 +10,7 @@ Terminology, general knowledge
 ---
 - One AWS account can have many users, and the account login itself is referred to as the root user.
 ![AWS account with multiple users and groups with policies](../../-%20Attachments/AWS/AWS%20account%20hierarchy.png)
-- IAM Role means something similar to a User, but it can be assumed by anyone who needs to (Similar to [Proxmox](../../Linux/Proxmox/Proxmox.md) permissions if you are familiar with it). It is an AWS Identity with permission policies that determine their permissions. (It's a set of predetermined permissions)
+- IAM Role means something similar to a User, but it can be assumed by anyone who needs to (Similar to [Proxmox](../../Linux/Proxmox/Proxmox.md) permissions if you are familiar with those). It is an AWS Identity with permission policies that determine their permissions. (It's a set of predetermined permissions)
 
 ### Configuration console location
 

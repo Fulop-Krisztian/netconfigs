@@ -11,8 +11,8 @@ Terminology, general knowledge
 - Compression takes a blob of data, and makes it a smaller blob of data
 - Data aggregation (Like putting a directory into a blob, so that it may be compressed), is not necessarily the compression program's job. We usually use tar for that
 - In general:
-	- Use [[ZSTD]] for fast compression and good compression
-	- Use [[XZ]] for archival compression where you want something to be as small as possible. It's not that much better than ZSTD (around ~5% at most on high settings [or even less](https://en.wikipedia.org/wiki/Zstd#Usage)), while being much, much slower for decompression in most cases. For compression it varies.
+	- Use [ZSTD](Compression.md#ZSTD) for fast compression and good compression
+	- Use [XZ](Compression.md#XZ) for archival compression where you want something to be as small as possible. It's not that much better than ZSTD (around ~5% at most on high settings [or even less](https://en.wikipedia.org/wiki/Zstd#Usage)), while being much, much slower for decompression in most cases. For compression it varies.
 	- Use [[gzip]] for compatibility
 
 Prerequisites
@@ -49,9 +49,7 @@ zstd -c -T0 --ultra --long -20 <input> > <output>
 Depending on the network, the total throughput could end up higher in the end than if you were to just send it without compression, even with the compression overhead for the server.
 
 
-
-
-It is so fast in fact, that it can be used as transparent compression for filesystems. You would use it with more normal settings though, around level 4 (for example [[BTRFS]])
+It is so fast in fact, that it can be used as transparent compression for filesystems. You would use it with more normal settings though, around level 4 (for example [BTRFS](../Filesystems/BTRFS.md))
 
 XZ
 ---
@@ -63,7 +61,7 @@ xz
 ```
 
 
-Minimum working config examples:
+Examples:
 ---
 
 #### ZSTD:

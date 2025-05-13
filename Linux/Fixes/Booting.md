@@ -5,6 +5,7 @@ tags:
   - basic
   - etc
   - desktop
+  - fix
 ---
 Common issues that may arise when trying to boot, such as the boot entry not being present in BIOS.
 

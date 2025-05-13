@@ -18,5 +18,5 @@ Configuration
 ---
 
 
-Minimum working config examples:
+Config examples:
 ---

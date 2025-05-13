@@ -21,6 +21,9 @@ Terminology, general knowledge
 > [!WARNING]  
 > By default if [Systemd](../Services/systemd/Systemd.md) can't mount something, it panics and doesn't continue the boot. If you mess up an entry in fstab, you might not be able to boot your system
 
+Related
+---
+[Systemd mount](../Services/systemd/Systemd%20mount.md)
 
 Prerequisites
 ---
