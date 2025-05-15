@@ -1,5 +1,18 @@
-#project #cisco #dynamicrouting #eigrp #ospf #rip #basic #ipv4 #router #switch #vlan 
-
+---
+title: EIGRP OSPF RIP redistribute chap authentication
+tags:
+  - project
+  - cisco
+  - dynamicrouting
+  - eigrp
+  - ospf
+  - rip
+  - basic
+  - ipv4
+  - router
+  - switch
+  - vlan
+---
 This was a class project, dated 2025-02-27
 # Subnets:
 

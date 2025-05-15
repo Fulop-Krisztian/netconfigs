@@ -6,7 +6,7 @@ tags:
 ---
 Terminology, general knowledge
 ---
-
+- YOU HAVE TO USE A SINGLE DASH. I don't know why, but you have to use a single dash. This goes against the convention. Why would they do this?
 
 Prerequisites
 ---
