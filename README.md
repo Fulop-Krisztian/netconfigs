@@ -8,6 +8,7 @@
 External links:
 - [Hosted version of this Wiki](https://krissssz.ddns.net/wiki/) (Recommended, with really good search)
 - [Penguin wiki](https://wiki.penguin.hu) (Good site that I stole)
+- [Full, simple guides for specific services](https://huszonot.com/)
 
 A repository containing all sorts of configs for all sorts of network and server related things.
 
