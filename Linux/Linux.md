@@ -87,10 +87,11 @@ Other
 
 [Useful commands](-%20Commands/Command%20compendium.md)
 ---
-[Compression](-%20Configurations/Compression.md)
+[Compression commands (multiple)](-%20Configurations/Compression.md)
 
 [Find](-%20Commands/Find.md)
 
+[rsync](-%20Commands/rsync.md)
 
 
 Fixes
