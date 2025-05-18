@@ -9,16 +9,21 @@ tags:
 Terminology, general knowledge
 ---
 - Compression takes a blob of data, and makes it a smaller blob of data
-- Data aggregation (Like putting a directory into a blob, so that it may be compressed), is not necessarily the compression program's job. We usually use tar for that
+- Data aggregation (archiving) (Like putting a directory and its contents into a single file, so that it may be compressed), is not necessarily the compression program's job. Usually [[tar]] is used for that.
 - In general:
-	- Use [ZSTD](Compression.md#ZSTD) for fast compression and good compression
-	- Use [XZ](Compression.md#XZ) for archival compression where you want something to be as small as possible. It's not that much better than ZSTD (around ~5% at most on high settings [or even less](https://en.wikipedia.org/wiki/Zstd#Usage)), while being much, much slower for decompression in most cases. For compression it varies.
-	- Use [[gzip]] for compatibility
+	- Use [[tar]] for archiving (even single files, as it preserves permissions)
+	- Use [zip](Compression.md#zip) for wide compatibility (like for Windows)
+	- Use [ZSTD](Compression.md#ZSTD) for fast compression and good compression, it's still building up support, but it's mostly supported in Linux, less so outside.
+	- Use [XZ (lzma)](Compression.md#XZ) for archival compression where you want something to be as small as possible. It's not that much better than ZSTD (around ~5% at most on high settings [or even less](https://en.wikipedia.org/wiki/Zstd#Usage)), while being much, much slower for decompression in most cases. For compression speed it varies. It's widely supported in Linux, less so outside.
+	- Use [[lz4]] for when absolute speed is required
+	- Don't use others (like bzip2, it's outdated), except when they are required.
+	- Please don't use the rar format. Please.
+- For decompression [7z (7-zip)](https://wiki.archlinux.org/title/7-Zip) supports a lot of formats. Ideal for decompressing almost anything
 
 Prerequisites
 ---
 - You have the mentioned compression programs installed. They should come by default on most systems.
-- You have good enough hardware, if you want to run the highest settings.
+- You have good enough hardware, or lots of patience (if you want to run the highest settings.)
 
 Sources
 ---
@@ -69,29 +74,32 @@ Examples:
 
 Directory:
 ```bash
-tar -cf - <path-to-folder> | zstd -c -T0 --long -19 - > <arc  
+tar -cf - <path-to-folder> | zstd -c -T0 -19 - > <arc  
 hive_name>.tar.zst
 ```
 
 Single file:
 ```bash
-zstd -c -T0 --long -19 <filename> > <filename>.zst
+zstd -c -T0 -19 <filename> > <filename>.zst
 ```
 ##### Extreme compression with ZSTD:
+
+> [!WARNING]  
+> You have to specify the `--long=31` flag when decompressing too
 
 Directory:
 ```bash
 tar -cf - <path-to-folder> | zstd --long=31 --ultra -22 -T0 - > <arc  
 hive_name>.tar.zst
 ```
+
 Single file:
 ```bash
 zstd -c -T0 --long=31 --ultra -19 <filename> > <filename>.zst
 ```
 
 
-
-#### High compatibility 
+#### zip
 For example with for sharing with [Windows](../../Windows/Windows.md), (Though Windows usually has no issues with even XZ or ZSTD decompression). the ZIP format is very universal
 
 ```bash
