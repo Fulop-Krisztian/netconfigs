@@ -114,3 +114,7 @@ This is the simplest of all.
 ```
 
 > The swap partition can also be a BTRFS subvolume
+
+#### [NFS mount](../Filesystems/NFS.md#3.%20Mount%20shares%20permanently%20with%20fstab)
+
+
