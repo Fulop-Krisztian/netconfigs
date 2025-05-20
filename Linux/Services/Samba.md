@@ -1,14 +1,34 @@
+---
+title: Samba installation and configuration on Linux
+tags:
+  - linux
+  - service
+  - windows
+  - etc
+---
+Sources
+---
+[FUTO wiki](https://wiki.futo.org/index.php/Introduction_to_a_Self_Managed_Life:_a_13_hour_%26_28_minute_presentation_by_FUTO_software)
+
+Server configuration
+---
+
+First install samba on the server
+
 ```
-# Install Samba packages
 sudo apt install samba samba-common-bin -y
 ```
 
-This configuration is very locked down. Overwrite the default, but back the default up just in case
-```
+This configuration is very locked down. Overwrite the default, but back the default up just in case.
+
+ `/etc/samba/smb.conf`
+```ini
 [global]
     # Network settings
     workgroup = HOME
+    
     # Change realm to server domain
+    # Change these to your liking
     realm = home.arpa
     netbios name = happycloud
     server string = ZFS Archive Server
@@ -49,9 +69,10 @@ This configuration is very locked down. Overwrite the default, but back the defa
 
 [archive]
     comment = ZFS Archive Share
-    // Change this path
+    # Change this path
     path = /mediapool/archive
-    valid users = louis
+    # Change this
+    valid users = <user>
     invalid users = root
     browseable = yes
     read only = no
@@ -60,8 +81,10 @@ This configuration is very locked down. Overwrite the default, but back the defa
     force create mode = 0644
     directory mask = 0755
     force directory mode = 0755
-    force user = louis
-    force group = louis
+    # You should change these
+    force user = <user>
+    force group = <group>
+    # Blacklisted directories
     veto files = /._*/.DS_Store/.Thumbs.db/.Trashes/
     delete veto files = yes
     follow symlinks = yes
@@ -73,11 +96,12 @@ This configuration is very locked down. Overwrite the default, but back the defa
 ```
 
 #### Verify valid config:
+
 ```
 testparm
 ```
 
-#### After this, you need to give your user a samba password, to do this:
+#### After this, you need to create a samba user (this is separate from Linux users), to do this:
 
 ```
 sudo smbpasswd -a <user>

@@ -6,8 +6,6 @@ tags:
   - basic
   - todo
 ---
-Basics
-
 Related
 ---
 [Systemd service](Systemd%20service.md)

@@ -7,6 +7,7 @@ tags:
 Network configuration
 ---
 #### Basic interface configuration
+
 [NetworkManager](Network%20interface%20configurations/NetworkManager.md)
 
 [Debian](Network%20interface%20configurations/Debian.md)
@@ -18,9 +19,6 @@ Network configuration
 [[Teaming]]
 
 [Enable wake on lan](Network%20interface%20configurations/Enable%20wake%20on%20lan.md)
-
-
-
 
 Virtualization
 ---
@@ -36,7 +34,13 @@ Automation
 Other configurations
 ---
 
+#### Storage/disks/filesystems
+
 [fstab: automounting filesystems](-%20Configurations/fstab.md)
+
+[Configuring disk/HDD standby with hdparm](-%20Configurations/hdparm.md)
+
+#### Desktop/gaming
 
 [Configuring Linux for gaming](-%20Configurations/Gaming.md)
 
@@ -60,6 +64,7 @@ Services
 [Apache/Apche2/httpd](Services/Webserver/Apache.md)
 
 #### Specific services
+
 [Mail server](Services/Mail%20server.md)
 
 [Rsyslog](Monitoring/Rsyslog.md)
@@ -76,14 +81,11 @@ Other
 
 [Alpine postinstall configurations for a fast booting system](Install%20guides/Alpine%20postinstall%20Quickalpine.md)
 
-
 #### Linux - Windows (AD) integration
 
 [Samba server in Linux](Services/Samba.md)
 
 [Windows Compatibility](Windows%20Compatibility.md)
-
-
 
 [Useful commands](-%20Commands/Command%20compendium.md)
 ---
@@ -92,7 +94,6 @@ Other
 [Find](-%20Commands/Find.md)
 
 [rsync](-%20Commands/rsync.md)
-
 
 Fixes
 ---
