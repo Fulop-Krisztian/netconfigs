@@ -13,6 +13,7 @@ The hdparm configuration file is `/etc/hdparm.conf`. It's very verbose, and has 
 
 ```hdparm.conf
 # This sets the disk up to spin down after 10 minutes of idling
+# 5s * 120 = 600s
 /dev/sda {
     apm = 128
     spindown_time = 120
