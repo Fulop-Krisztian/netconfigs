@@ -18,14 +18,14 @@ Sources
 Prerequisites
 ---
 - Install GameMode with 32-bit support (`yay -S gamemode lib32-gamemode`)
+- VERY IMPORTANT:
 
 > [!IMPORTANT]  
 > You need to add yourself to the gamemode group:
 > `sudo usermod -aG gamemode`
 > Otherwise gamemode won't have the permissions to modify your system for best performance
 > You can test whether gamemode is functioning with:
-> `gamemode -t`
-
+> `gamemoded -t`
 
 Usage
 ---

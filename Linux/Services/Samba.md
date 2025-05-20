@@ -22,6 +22,7 @@ sudo apt install samba samba-common-bin -y
 This configuration is very locked down. Overwrite the default, but back the default up just in case.
 
  `/etc/samba/smb.conf`
+ 
 ```ini
 [global]
     # Network settings
@@ -103,13 +104,14 @@ testparm
 
 #### After this, you need to create a samba user (this is separate from Linux users), to do this:
 
-```
+```bash
 sudo smbpasswd -a <user>
+# enable the user
 sudo smbpasswd -e <user>
 ```
 
 #### Start and Enable Samba
-```
+```bash
 # Restart Samba services
 sudo systemctl restart smbd
 sudo systemctl restart nmbd

@@ -28,6 +28,20 @@ You can also use `/dev/disk/by-id/<disk_id>` to specify the disk
 ```bash
 lsblk |awk 'NR==1{print $0" DEVICE-ID(S)"}NR>1{dev=$1;printf $0" ";system("find /dev/disk/by-id -lname \"*"dev"\" -printf \" %p\"");print "";}'|grep -v -E 'part|lvm'
 ```
+
+To apply the settings, run:
+
+```bash
+sudo /lib/udev/hdparm
+```
+
+or maybe sometimes:
+
+```bash
+sudo systemctl restart hdparm
+```
+
+or just reboot.
 Terminal usage
 ---
 > [!NOTE]  
