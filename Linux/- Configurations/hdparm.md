@@ -69,11 +69,3 @@ sudo hdparm -S 0 /dev/sdb
 ```bash
 sudo hdparm -I /dev/sdX
 ```
-
----
-
-## Tips
-
-- These settings **do not persist across reboots** by default.
-- For persistence, add commands to a startup script or use `udev` rules.
-- Spinning down drives in a RAID or ZFS array can cause **latency, degraded pools**, or even false disk failures. Use with caution.
