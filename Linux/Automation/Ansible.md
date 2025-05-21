@@ -10,7 +10,9 @@ Terminology, general knowledge
 
 Related files
 ---
+
 [Ansible configuration for Windows](../../Windows/Ansible%20configuration.md)
+
 [Ansible configuration for Cisco](../../Cisco/Other/Ansible%20configuration.md)
 Prerequisites
 ---
