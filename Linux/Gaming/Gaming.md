@@ -25,7 +25,10 @@ Sources
 Gaming related things
 ---
 
-[Gamemode for better game stability and performance](../Services/Other/GameMode.md)
+[Gamemode for better game stability and performance](GameMode.md)
+
+[Migrating all of your Windows game saves to Linux the simple way](Windows%20saves.md)
+
 
 Environment variables:
 ---

@@ -4,6 +4,8 @@ tags:
   - linux
   - overview
 ---
+## [Gaming](Gaming/Gaming.md)
+
 Network configuration
 ---
 #### Basic interface configuration
@@ -40,12 +42,8 @@ Other configurations
 
 [Configuring disk/HDD standby with hdparm](-%20Configurations/hdparm.md)
 
-#### Desktop/gaming
+## [Scripts](-%20Scripts/Scripts.md)
 
-[Configuring Linux for gaming](-%20Configurations/Gaming.md)
-
-[Scripts](-%20Scripts/Scripts.md)
----
 
 Services
 ---
@@ -74,6 +72,8 @@ Services
 Other
 ---
 [Raspberry Pi](Raspberry%20Pi/Raspberry%20Pi.md)
+
+[Automatic environment variable management with direnv (automatically enter python venvs)](-%20Configurations/direnv.md)
 
 #### Installation guides
 
