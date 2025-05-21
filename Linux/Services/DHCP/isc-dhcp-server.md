@@ -50,5 +50,3 @@ Finally restart the service to apply the configuration
 ```bash
 systemctl restart isc-dhcp-server
 ```
-Minimum working config examples:
----
