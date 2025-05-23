@@ -16,7 +16,7 @@ Related files
 [Ansible configuration for Cisco](../../Cisco/Other/Ansible%20configuration.md)
 Prerequisites
 ---
-- An Linux system with Ansible installed.
+- A Linux system with Ansible installed.
 
 Sources
 ---
@@ -24,8 +24,18 @@ Sources
 - [Network Programmability and Automation, 2nd Edition](https://www.oreilly.com/library/view/network-programmability-and/9781098110826/)
 - https://github.com/Horribili-kft/Ansible
 
-Configuration
+Installation
 ---
+> [!NOTE]  
+> Setting up an Ansible control node can be done in a multitude of ways.
+> The simplest method that consistently works is setting up a Python Virtual environment on a Linux machine, where you can run Ansible from. The following script does that:
+
+#### Ansible 
+
+
+
+
+
 
 
 Minimum working config examples:
