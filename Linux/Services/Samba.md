@@ -68,6 +68,7 @@ This configuration is very locked down. Overwrite the default, but back the defa
     unix charset = UTF-8
     dos charset = CP932
 
+# There are a lot of options here. You don't need to use all of them
 [archive]
     comment = ZFS Archive Share
     # Change this path
@@ -96,6 +97,21 @@ This configuration is very locked down. Overwrite the default, but back the defa
     guest ok = yes
 ```
 
+> [!NOTE]  
+> To add more shares, just add more sections like the `[archive]` section. The names can be whatever you want, but they have to be unique. For example you could add a more permissive share like this:
+
+```ini
+[public]
+   comment     = Public share, writable by anyone
+   path        = /srv/samba/public
+   browseable  = yes
+   read only   = no
+   guest ok    = yes
+   guest only  = yes
+   create mask = 0666
+   directory mask = 0777
+   force user  = nobody
+```
 #### Verify valid config:
 
 ```
