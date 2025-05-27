@@ -13,8 +13,11 @@ Terminology, general knowledge
 Sources
 ---
 [Arch wiki](https://wiki.archlinux.org/title/GameMode)
+
 [Relevant reddit post](https://www.reddit.com/r/linux_gaming/comments/1kjer3k/psa_your_gamemode_might_be_configured_incorrectly/)
+
 [GameMode GitHub](https://github.com/FeralInteractive/gamemode)
+
 Prerequisites
 ---
 - Install GameMode with 32-bit support (`yay -S gamemode lib32-gamemode`)
