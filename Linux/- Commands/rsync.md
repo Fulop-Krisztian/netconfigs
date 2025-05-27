@@ -1,6 +1,8 @@
 ---
 title: rsync
 tags:
+  - linux
+  - basic
 ---
 Terminology, general knowledge
 ---

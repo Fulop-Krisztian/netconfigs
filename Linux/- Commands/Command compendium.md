@@ -6,13 +6,10 @@ tags:
   - automation
   - test
 ---
-
-
 This is a special format document in this repository.
 It contains a few Linux commands that you may find useful for some purpose, or is otherwise just interesting.
 
 Be careful about running them.
-
 
 Check failed SSH tries
 ---
