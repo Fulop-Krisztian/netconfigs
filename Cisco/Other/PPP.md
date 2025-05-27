@@ -1,22 +1,24 @@
-# PPP with CHAP configuration for Cisco routers
-
-
+---
+title: PPP with CHAP configuration for Cisco routers
+tags:
+  - cisco
+---
 Terminology, general knowledge
 ---
-> [!NOTE]
-> - PPP works in a weird way. You will need to configure neighbouring devices as if they were users. username = hostname password = password
-> - You configure this per interface. Both intefaces must be configured
+- PPP works in a weird way. You will need to configure neighboring devices as if they were users. username = hostname, password = password
+- You configure this per interface. Both interfaces must be configured
 
 Configuration
 ---
-Todo.
+
 
 
 Minimum working config examples:
 ---
 
 Router1
-```
+
+```ios
 enable
 configure terminal
 interface Serial0/0/0
@@ -36,7 +38,8 @@ username Router2 password mypassword2
 ```
 
 Router2
-```
+
+```ios
 enable
 configure terminal
 interface Serial0/0/0

@@ -13,7 +13,8 @@ Prerequisites
 Sources
 ---
 
-> [!info] Raspberry Pi Documentation - Raspberry Pi OS  
+> [!note] 
+> Raspberry Pi Documentation - Raspberry Pi OS  
 > The official documentation for Raspberry Pi computers and microcontrollers  
 > [https://www.raspberrypi.com/documentation/computers/os.html](https://www.raspberrypi.com/documentation/computers/os.html)  
 
