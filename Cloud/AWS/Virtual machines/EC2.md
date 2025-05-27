@@ -1,8 +1,9 @@
 ---
-title: AWS Elastic Compute 2 The virtual machines
+title: AWS EC2 (Virtual machines)
 tags:
   - cloud
   - virtualization
+  - aws
 ---
 Terminology, general knowledge
 ---
@@ -12,6 +13,8 @@ Configuration
 ---
 
 #### Web server
+
+This was designed for the default Amazon Linux image
 
 > [!NOTE]  
 > You need to paste these into the **User data - *optional*** section somewhere near the bottom of the EC2 setup page
