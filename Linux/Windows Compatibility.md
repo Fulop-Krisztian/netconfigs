@@ -6,8 +6,8 @@ tags:
   - desktop
   - fix
 ---
-> [!info] Dual boot with Windows - ArchWiki  
->  
+> [!note] 
+>  Dual boot with Windows - ArchWiki 
 > [https://wiki.archlinux.org/title/Dual_boot_with_Windows](https://wiki.archlinux.org/title/Dual_boot_with_Windows)  
 
 ### 1. Disable Fast Startup and disable hibernation (can’t mount)
