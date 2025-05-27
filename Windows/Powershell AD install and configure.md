@@ -16,9 +16,6 @@ Prerequisites
 - Basic knowledge about Active Directory
 - Know what your AD domain is going to be. 
 
-Sources
----
-
 [AD installation script](Scripts/adinstall.ps1)
 ---
 [adinstall.ps1](Scripts/adinstall.ps1)
