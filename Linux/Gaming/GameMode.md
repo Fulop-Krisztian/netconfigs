@@ -25,7 +25,7 @@ Prerequisites
 
 > [!IMPORTANT]  
 > You need to add yourself to the gamemode group:
-> `sudo usermod -aG gamemode`
+> `sudo usermod -aG gamemode <user>`
 > Otherwise gamemode won't have the permissions to modify your system for best performance
 > You can test whether gamemode is functioning with:
 > `gamemoded -t`
