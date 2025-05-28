@@ -107,6 +107,14 @@ sudo systemctl reload apache2
 > [!TIP]
 > If you get `403 Forbidden`, then try the `Require all granted` option
 
+> [!TIP] 
+> If you still get the error, then try the following:
+> `namei --modes <path_to_index>`
+> It should output the permissions on all directories leading to the file.
+> For every directory that doesn't have the x permissions on the way to the index file:
+> `chmod +x <directory>`
+
+(you probably won't need to use this config, read the note on the top)
 ```xml
 <VirtualHost *:80>
     ServerName usersite.local

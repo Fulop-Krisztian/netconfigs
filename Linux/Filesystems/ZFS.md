@@ -6,7 +6,7 @@ tags:
 ---
 Terminology, general knowledge
 ---
-![](../../-%20Attachments/Pasted%20image%2020250527195155.png)
+![](../../-%20Attachments/ZFS%20architecture.png)
 
 - There are two ways you can use the ZPOOL:
 	- **Datasets**: These are analogous to partitions. You can mount them, you can set different mount options, checksums,

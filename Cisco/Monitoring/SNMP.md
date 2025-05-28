@@ -1,5 +1,9 @@
-# SNMP (v1,v2c,v3) configuration for Cisco IOS devices
-#telemetry #cisco
+---
+title: SNMP (v1,v2c,v3) configuration for Cisco IOS devices
+tags:
+  - cisco
+  - monitoring
+---
 In this document you will find a 100% working no scam no lie no cheat 101% work punjabi no virus method to configure SNMP for a cisco device.
 
 Prerequisites
@@ -16,7 +20,7 @@ Terminology, general knowledge
 
 Sources
 ---
-[](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/snmp/configuration/xe-16/snmp-xe-16-book/nm-snmp-cfg-snmp-support.html#GUID-C2F92A96-7EB8-4921-8491-46C4D7AD2D49)
+[Cisco guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/snmp/configuration/xe-16/snmp-xe-16-book/nm-snmp-cfg-snmp-support.html#GUID-C2F92A96-7EB8-4921-8491-46C4D7AD2D49)
 
 [SNMPv3 Tempalte](https://community.cisco.com/t5/networking-knowledge-base/configuration-template-for-snmpv3/ta-p/4666450)
 

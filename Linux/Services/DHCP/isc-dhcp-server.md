@@ -10,7 +10,7 @@ tags:
 ---
 Terminology, general knowledge
 ---
-- isc-dhcp-server is outdated ([end of maintenance as of 2022](https://www.isc.org/dhcp/) ), don't even consider it in real applicatoins. An alternative is [Kea](https://kea.readthedocs.io/en/latest/arm/intro.html), developed by the same group.
+- isc-dhcp-server is outdated ([end of maintenance as of 2022](https://www.isc.org/dhcp/) ), don't even consider it in real applications. An alternative is [Kea](https://kea.readthedocs.io/en/latest/arm/intro.html), developed by the same group.
 
 Prerequisites
 ---
