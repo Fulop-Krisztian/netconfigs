@@ -6,7 +6,11 @@ tags:
 ---
 Terminology, general knowledge
 ---
+![](../../-%20Attachments/Pasted%20image%2020250527195155.png)
 
+- There are two ways you can use the ZPOOL:
+	- **Datasets**: These are analogous to partitions. You can mount them, you can set different mount options, checksums,
+	- **ZVOLS**: These are analogous to block devices (disks). You can format them as if they were an independent disk, you can put any other file system on it.
 
 Prerequisites
 ---
@@ -16,6 +20,7 @@ Sources
 ---
 [Proxmox wiki](https://pve.proxmox.com/wiki/ZFS_on_Linux)
 
+[Snapshots in more detail](https://www.thegeeksearch.com/beginners-guide-to-zfs-snapshots/)
 Pool creation
 ---
 
@@ -114,4 +119,22 @@ weekly:
 # weekly scrub
 systemctl enable zfs-scrub-weekly@<pool_name>.timer
 systemctl start  zfs-scrub-weekly@<pool_name>.timer
+```
+
+#### Creating and managing snapshots
+
+Snapshot naming convention is: `pool/datastore@something`. For something you should probably use a date, like `zfs snapshot pool/filesystem@thursday`
+
+##### Create
+
+```
+zfs snapshot pool/filesystem@thursday
+```
+
+##### Rollback
+
+You don't need to specify anything else other than the snapshot.
+
+```
+zfs rollback pool/filesystem@thursday
 ```

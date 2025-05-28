@@ -101,6 +101,12 @@ sudo systemctl reload apache2
 
 #### `usersite.local.conf` – UserDir support
 
+> [!NOTE]  
+> If you enable the userdir module, something similar to this should be included automatically (the config file is usually under `/etc/apache2/mods-enabled/userdir.conf`)
+
+> [!TIP]
+> If you get `403 Forbidden`, then try the `Require all granted` option
+
 ```xml
 <VirtualHost *:80>
     ServerName usersite.local
