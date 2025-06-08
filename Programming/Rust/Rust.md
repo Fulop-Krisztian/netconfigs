@@ -20,3 +20,10 @@ Resources
 #### Other
 
 [Rustlings: A great tool with a lot of exercises for practicing actually writing rust code](https://github.com/rust-lang/rustlings)
+
+
+Concepts
+---
+### Basics
+
+[Vectors (also known as lists or arrays in other languages)](Collections/Vectors.md)

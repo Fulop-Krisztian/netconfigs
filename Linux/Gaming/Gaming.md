@@ -30,6 +30,16 @@ Gaming related things
 [Migrating all of your Windows game saves to Linux the simple way](Windows%20saves.md)
 
 
+Common pitfalls:
+---
+
+> [!WARNING]  
+> If you are migrating from Windows, and some of the games you install don't seem to work, check if you are installing on an NTFS partition. NTFS can also cause issues both when only the game files are on in, or only when the Wine prefix folder is on it.
+> 
+> Use another, simple filesystem, like [EXT4](https://en.wikipedia.org/wiki/Ext4). You can also use more advanced filesystems, supposing you have the willingness to learn about them: [BTRFS](../Filesystems/BTRFS.md), [ZFS](../Filesystems/ZFS.md)
+
+
+
 Environment variables:
 ---
 These environment variables can optimize your gaming experience, or may be a requirement to launch the game at all.

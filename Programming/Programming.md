@@ -6,4 +6,4 @@ tags:
 ---
 [Rust](Rust/Rust.md)
 
-Python
+[Python](Python/Python.md)
