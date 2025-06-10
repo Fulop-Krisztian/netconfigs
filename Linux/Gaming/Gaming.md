@@ -15,10 +15,12 @@ Terminology, general knowledge
 
 Prerequisites
 ---
-- Wine and Proton, and a launcher to use them to make your life easier (I use [Heroic](https://heroicgameslauncher.com/), but [Lutris](https://lutris.net) is a very popular alternative, along with [Bottles](https://usebottles.com/) (Which is more focused on running Windows apps in general))
+- Wine and Proton, and a launcher to use them to make your life easier. I use [Heroic Games Launcher](https://heroicgameslauncher.com/) (available on Windows too), but [Lutris](https://lutris.net) is a very popular alternative. Another popular choice is [Bottles](https://usebottles.com/) (Which is more focused on running Windows apps in general)
 
 Sources
 ---
+The most important: [ProtonDB](https://www.protondb.com/). Here you can check if a game has any issues running on Linux. You can also check SteamDeck support here.
+
 [Linux cracked games wiki, a lot of useful info here](https://www.reddit.com/r/LinuxCrackSupport/wiki/index/)  
 
 
@@ -36,7 +38,7 @@ Common pitfalls:
 > [!WARNING]  
 > If you are migrating from Windows, and some of the games you install don't seem to work, check if you are installing on an NTFS partition. NTFS can also cause issues both when only the game files are on in, or only when the Wine prefix folder is on it.
 > 
-> Use another, simple filesystem, like [EXT4](https://en.wikipedia.org/wiki/Ext4). You can also use more advanced filesystems, supposing you have the willingness to learn about them: [BTRFS](../Filesystems/BTRFS.md), [ZFS](../Filesystems/ZFS.md)
+> Use another, simple filesystem, like [EXT4](https://en.wikipedia.org/wiki/Ext4). You can also use more advanced filesystems, supposing you have the time and inclination to learn about them: [BTRFS](../Filesystems/BTRFS.md), [ZFS](../Filesystems/ZFS.md)
 
 
 
