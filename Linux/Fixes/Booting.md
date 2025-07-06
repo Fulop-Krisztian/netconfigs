@@ -52,6 +52,12 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 **For Debian and derivatives**
 
+```bash
+sudo update-grub
+# or
+sudo update-grub2
+```
+
 > [!WARNING]  
 > This might be different for your distribution
 
