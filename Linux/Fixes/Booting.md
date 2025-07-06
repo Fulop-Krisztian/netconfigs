@@ -50,6 +50,8 @@ You can remake the grub config with this command:
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
+**For Debian and derivatives**
+
 > [!WARNING]  
 > This might be different for your distribution
 
