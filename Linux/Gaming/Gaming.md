@@ -46,10 +46,10 @@ Environment variables:
 ---
 These environment variables can optimize your gaming experience, or may be a requirement to launch the game at all.
 
-#### Change keyboard layout inside game
-The keyboard layout inside games run inside wine/proton are separate from your real layout. At least on Wayland (I've not tested xorg).
+#### Change keyboard layout/language/locale inside game
+The keyboard layout of games run inside wine/proton are separate from your actual desktop environment layout (on Wayland at least).
 
-[According to the documentation](https://gitlab.winehq.org/wine/wine/-/wikis/Translating#how-do-i-test-my-translation) "Wine uses the operating system's locale to decide what language to use, but this can be overridden by changing the `LANG` environment variable". You can also use the `LC_ALL` instead of `LANG` to override the full locale, not just the language (the locale includes number formatting, currency, units, etc...).
+[According to the documentation](https://gitlab.winehq.org/wine/wine/-/wikis/Translating#how-do-i-test-my-translation) "Wine uses the operating system's locale to decide what language *(also meaning keyboard layout)* to use, but this can be overridden by changing the `LANG` environment variable". You can also set `LC_ALL` instead of `LANG` to override the full locale, not just the language (the locale includes number formatting, currency, units, etc...).
 
 To get a list of locales that are available on your system:
 ```bash
@@ -67,7 +67,7 @@ POSIX
 
 > If you can't see the locale that you want to change your layout to, you need to install it. You do this through your package manager.
 
-Now you just need to run wine with these environment variables. You can configure this in your game launcher (like Heroic), or you can just run a program from terminal like this:
+Now you just need to run wine with the environment variables. You can configure this in your game launcher (like Heroic), or you can just run a program from terminal like this:
 
 ```bash
 LANG="en_US.utf8"
