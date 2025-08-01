@@ -116,5 +116,9 @@ Replace `/dev/ttyUSB0` with the correct serial device.
 	```
 
 
-
-
+Selecting a random line in a file with AWK
+---
+This method should be very memory efficient since it uses reservoir sampling. I think it has a time complexity of N
+```bash
+awk 'BEGIN {srand()} {if (rand() < 1/++n) line = $0} END {print line}' <file>
+```

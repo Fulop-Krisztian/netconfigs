@@ -42,6 +42,7 @@ sudo systemctl restart hdparm
 ```
 
 or just reboot.
+
 Terminal usage
 ---
 > [!NOTE]  
