@@ -122,3 +122,12 @@ This method should be very memory efficient since it uses reservoir sampling. I 
 ```bash
 awk 'BEGIN {srand()} {if (rand() < 1/++n) line = $0} END {print line}' <file>
 ```
+
+
+Finding out info about a specific disk
+---
+When you are modifying the layout of a disk destructively (eg. modifying the partition table), you should triple-check that the disk you are modifying is the one you really intend to modify. Short of unplugging the other disks, checking from multiple sources is the next best method. This lists a lot of unique information about the disks, while remaining digestible. 
+
+```bash
+lsblk -o MODEL,SERIAL,SIZE,STATE,PATH --nodeps
+```

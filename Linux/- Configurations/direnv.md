@@ -23,7 +23,7 @@ Shell configuration for usage
 ---
 #### Fish
 
-Add the following line at the end of the **$XDG_CONFIG_HOME/fish/config.fish** file:
+Add the following line at the end of the **$XDG_CONFIG_HOME/fish/config.fish** (usually /home/user/.config/fish/config.fish) file:
 
 ```config.fish
 direnv hook fish | source
