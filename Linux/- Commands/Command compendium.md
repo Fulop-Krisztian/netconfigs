@@ -131,3 +131,12 @@ When you are modifying the layout of a disk destructively (eg. modifying the par
 ```bash
 lsblk -o MODEL,SERIAL,SIZE,STATE,PATH --nodeps
 ```
+
+SSHFS mount
+---
+
+SSHFS can be used to mount a remote file system through SSH. Useful if you don't want to have to learn all the different remote-ssh tools for all the apps you use.
+
+```shell
+sudo sshfs -o allow_other,default_permissions <user>@<remote>:~/ /mnt/droplet
+```
