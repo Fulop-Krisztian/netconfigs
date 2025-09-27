@@ -8,4 +8,4 @@ Started on 2023. 11. 28.
 
 [[Filesystem structure]]
 
-[[Building packages/Building packages]]
+[[Building packages]]
