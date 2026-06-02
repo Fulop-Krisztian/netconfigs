@@ -6,7 +6,7 @@ tags:
   - desktop
   - firmware
 ---
-Configuration
+- [ ] Configuration
 ---
 
 The hdparm configuration file is `/etc/hdparm.conf`. It's very verbose, and has basic example. One example might be:
