@@ -42,6 +42,16 @@ Other configurations
 
 [Configuring disk/HDD standby with hdparm](-%20Configurations/hdparm.md)
 
+
+#### Desktop environments
+
+[Hyprland](Graphical%20User%20Interfaces/Hyprland.md)
+
+#### Text processors
+
+[Neovim](neovim/Neovim.md)
+
+
 ## [Scripts](-%20Scripts/Scripts.md)
 
 
