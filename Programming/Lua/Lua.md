@@ -66,7 +66,7 @@ print("add_one(2) -> ", add_one(2))
 
 ```
 #### Tables
-Actually everything in lua is a table (similar to how in [bash](bash) everything is just a list. I think)
+Actually everything in lua is a table (similar to how in [[bash]] everything is just a list. I think)
 
 ```lua
 local list = { "First", 2, false, function() print("Fourth!") end }

@@ -27,3 +27,5 @@ Concepts
 ### Basics
 
 [Vectors (also known as lists or arrays in other languages)](Collections/Vectors.md)
+[Strings](Collections/Strings.md)
+[Option](Option.md)
