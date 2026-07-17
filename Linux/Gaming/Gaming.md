@@ -31,6 +31,8 @@ Gaming related things
 
 [Migrating all of your Windows game saves to Linux the simple way](Windows%20saves.md)
 
+[Mangohud, to display stats while gaming (Similar to Rivatuner/MSI afterburner)](Mangohud.md)
+
 
 Common pitfalls:
 ---
